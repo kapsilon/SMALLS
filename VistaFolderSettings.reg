@@ -1,0 +1,37 @@
+Windows Registry Editor Version 5.00
+
+; This is a Vista ONLY Folder Repair tool, This tool will force Vista to remember your folder settings by
+; Modifying registry entries. Descriptions below explain what each step is doing.
+; Steps:
+; 1. Open up explorer and go to Tools->Folder Options->View and uncheck Remember each folder's View settings
+; 2. Double Click this registry File
+; 3. Restart Computer before doing anything else
+; 4. Once restarted, bring up explorer again and put the Check back that was removed in step 1.
+; 5. All folders on the computer should now be in the "All Items" format. Since Auto Discovery is now off
+; you will need to go to your shell folders (Pictures, Videos, Contacts, Music, etc.) and set them to the 
+; template you want, apply to subfolders, etc.
+
+
+; Clear out Folder Settings left over from XP:
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\ShellNoRoam\BagMRU]
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\ShellNoRoam\Bags]
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\Shell\BagMRU]
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\Shell\Bags]
+
+; Clear out Folder Settings for Vista
+[-HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\BagMRU]
+[-HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags]
+
+
+; Modify the Folder Storage space to 20000, this will allow the saving of settings for up to 20000 different folders.
+[HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell]
+"BagMRU Size"=dword:00004e20
+
+; Turn off Vista's Auto Template Discovery. This keeps vista from deciding on it's own what type
+; of Folder you have (ie, picture, videos, docs, etc) This will keep vista from changing what you
+; have already set for a folder as well. Notice this value is in the Bags Key that was deleted
+; in the settings above. Remember this is there, because if you decide to manually go delete
+; your Bags Key, you will lose this value and auto-discovery will turn back on again.
+
+[HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\AllFolders\Shell]
+"FolderType"="NotSpecified"
