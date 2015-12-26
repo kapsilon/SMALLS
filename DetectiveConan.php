@@ -22,12 +22,12 @@ foreach ($lines as $num => $line)
     $min_lines[$num] = $line;
     }
   }
+
 //Покажем список снова
 foreach ($min_lines as $num => $line) {
     echo "$line<br/>\n";
   }
 //Запишем в файл
-
 $new_file = fopen($new_file_name, "w");
 foreach ($min_lines as $num => $line)
   {
