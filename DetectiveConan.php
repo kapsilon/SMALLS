@@ -1,4 +1,4 @@
-<?
+<?php
 //Входные параметры
 $file_name = 'DetectiveConan.txt';
 $lines = file($file_name);
