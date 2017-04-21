@@ -6,7 +6,7 @@
     если драйвер нужно удалить принудительно используйте pnputil.exe -f -d
 #>
 
-#[Console]::OutputEncoding = [System.Text.Encoding]::GetEncoding("cp866")
+[Console]::OutputEncoding = [System.Text.Encoding]::GetEncoding("utf-8")
 
 # получаем список драйверов
 $temp = dism /online /get-drivers
