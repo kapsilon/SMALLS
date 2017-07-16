@@ -1,0 +1,17 @@
+#Need for execute
+sudo chmod u+s /sbin/shutdown
+
+#Console command
+shutdown -Ph now
+
+#Desktop Shortcut File
+shutdown.desktop
+[Desktop Entry]
+Type=Application
+Name=shutdown
+Icon=lxterminal
+Name[ru]=Выключить
+Exec=shutdown -Ph now
+
+#Need for execute
+chmod +x shutdown.desktop

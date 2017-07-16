@@ -1,0 +1,6 @@
+#Universal aliases
+alias rm='rm -i'
+alias nano='nano -KNSmu$'
+
+#Battery status
+PS1='[$(cat /sys/class/power_supply/BAT0/capacity)%]'
