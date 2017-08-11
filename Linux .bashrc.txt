@@ -1,6 +1,26 @@
-#Universal aliases
-alias rm='rm -i'
-alias nano='nano -NSmu$'
+﻿#Universal aliases
+alias rm='rm -iv'
+alias rmdir='rm -iRv'
+alias edit='nano -NSmu$'
+alias view='nano -Svm$'
+alias version='neofetch'
 
-#Battery status
+export EDITOR='nano -NSmu$'
+export VISUAL='nano -NSmu$'
+
+
+#Minimal PS1 for Android Termux
+export PS1='\[\033[2m\]\w\[\033[0m\]$ '
+
+#Battery status in terminal Knb
 PS1='[$(cat /sys/class/power_supply/BAT0/capacity)%]'
+
+#Mount all disks at K1
+alias mountall='sudo mount /Документы/; sudo mount /Загрузки/; sudo mount /Игры/; sudo mount /Разное/'
+
+
+
+
+
+
+
