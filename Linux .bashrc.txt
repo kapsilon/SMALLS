@@ -10,13 +10,15 @@ alias version='neofetch'
 export EDITOR='nano -NSmu$'
 export VISUAL='nano -Svm$'
 export TERM='xterm-256color'
+export PS1='${debian_chroot:+($debian_chroot)}\[\033[01;07;94m\]\u@\h\[\033[00m\]\[\033[07;37m\] \w \[\033[00m\]\[\033[01;07;92m\]\$\[\033[00m\] '
+
 
 
 #Minimal PS1 for Android Termux
-export PS1='\[\033[2m\]\w\[\033[0m\]$ '
+export PS1='[\033[07;37m\] \w \[\033[00m\]\[\033[01;07;92m\]\$\[\033[00m\] '
 
 #Battery status in terminal Knb
-PS1='[$(cat /sys/class/power_supply/BAT0/capacity)%]'
+PS1+='[$(cat /sys/class/power_supply/BAT0/capacity)%]'
 
 #Mount all disks at K1
 alias mountall='sudo mount /Документы/; sudo mount /Загрузки/; sudo mount /Игры/; sudo mount /Разное/'
