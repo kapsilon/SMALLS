@@ -9,7 +9,7 @@ shutdown.desktop
 [Desktop Entry]
 Type=Application
 Name=shutdown
-Icon=lxterminal
+Icon=/usr/share/icons/ubuntu-mono-dark/actions/24/system-shutdown-panel-restart.svg
 Name[ru]=Выключить
 Exec=shutdown -Ph now
 
