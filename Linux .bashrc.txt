@@ -1,6 +1,8 @@
 ﻿#Universal aliases
 alias edit='nano -NSmu$'
-alias lsa='ls -a'
+alias ls='ls --color --group-directories-first'
+
+alias lsa='ls -A --color --group-directories-first'
 alias rm='rm -iv'
 alias rmdir='rm -iRv'
 alias sudo='sudo '
