@@ -1,5 +1,6 @@
 ﻿#Universal aliases
 alias edit='nano -NSmu$'
+alias lsa='ls -a'
 alias rm='rm -iv'
 alias rmdir='rm -iRv'
 alias sudo='sudo '
@@ -10,7 +11,7 @@ alias version='neofetch'
 export EDITOR='nano -NSmu$'
 export VISUAL='nano -Svm$'
 export TERM='xterm-256color'
-export PS1='${debian_chroot:+($debian_chroot)}\[\033[01;07;94m\]\u@\h\[\033[00m\]\[\033[07;37m\] \w \[\033[00m\]\[\033[01;07;92m\]\$\[\033[00m\] '
+export PS1='${debian_chroot:+($debian_chroot)}\[\033[01;07;34m\]\u@\h\[\033[00m\]\[\033[07;37m\] \w \[\033[00m\]\[\033[01;07;32m\]\$\[\033[00m\] '
 
 
 
@@ -18,7 +19,11 @@ export PS1='${debian_chroot:+($debian_chroot)}\[\033[01;07;94m\]\u@\h\[\033[00m\
 export PS1='[\033[07;37m\] \w \[\033[00m\]\[\033[01;07;92m\]\$\[\033[00m\] '
 
 #Battery status in terminal Knb
-PS1+='[$(cat /sys/class/power_supply/BAT0/capacity)%]'
+export PS1BAT='\[\033[07;31m\][$(cat /sys/class/power_supply/BAT0/capacity)%]\[\033[00m\]'
+
+#PS1 for Ubuntu on Windows - other colors
+export PS1='${debian_chroot:+($debian_chroot)}\[\033[01;07;94m\]\u@\h\[\033[00m\]\[\033[07;37m\] \w \[\033[00m\]\[\033[01;07;92m\]\$\[\033[00m\] '
+
 
 #Mount all disks at K1
 alias mountall='sudo mount /Документы/; sudo mount /Загрузки/; sudo mount /Игры/; sudo mount /Разное/'
