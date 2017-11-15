@@ -1,0 +1,16 @@
+[Desktop Entry]
+Name=shutdown
+Name[ru]=Выключить
+Icon=/usr/share/icons/ubuntu-mono-dark/actions/24/system-shutdown-panel-restart.svg
+Type=Application
+Exec=shutdown -Ph now
+
+
+#Need for execute
+#sudo chmod u+s /sbin/shutdown
+
+#Need for execute
+#chmod +x shutdown.desktop
+
+#Console command
+#shutdown -Ph now

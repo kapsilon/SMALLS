@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Files
+Name[ru]=Файлы
+
+Exec=nautilus
+
+#Icon=nautilus-desktop
+Icon=system-file-manager
+Type=Application
+Terminal=false

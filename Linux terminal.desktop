@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Terminal
+Name[ru]=Терминал
+
+Exec=gnome-terminal
+
+Icon=utilities-terminal
+Type=Application
+Terminal=false
