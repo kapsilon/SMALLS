@@ -13,4 +13,4 @@ sudo apt dist-upgrade
 sudo do-release-upgrade
 
 #Or start the upgrade tool for development version
-#sudo do-release-upgrade
+#sudo do-release-upgrade -d

@@ -1,7 +1,6 @@
 ﻿#Universal aliases
 alias edit='nano -NSmu$'
 alias ls='ls --color --group-directories-first'
-
 alias lsa='ls -A --color --group-directories-first'
 alias rm='rm -iv'
 alias rmdir='rm -iRv'
