@@ -1,0 +1,26 @@
+! Kanobu
+kanobu.ru##.b-topbar__body
+kanobu.ru##.js-topbar.b-topbar
+kanobu.ru##.games-in-news
+kanobu.ru##.js-likes.clearfix.likes-box
+kanobu.ru##.js-share-box.share-box
+kanobu.ru##.clearfix.b-post-tags > .b-post-tags__body
+kanobu.ru##.clearfix.content-text:nth-of-type(5) > .pam.unit-1of1
+kanobu.ru##.pam.unit-1of3:nth-of-type(1)
+kanobu.ru##.pam.unit-1of3:nth-of-type(2)
+kanobu.ru##.pam.unit-1of3:nth-of-type(3)
+
+
+! lifehacker
+lifehacker.ru##.fixed-menu
+lifehacker.ru##.top-menu--wrapper
+lifehacker.ru##.mobile-bar
+lifehacker.ru###onesignal-bell-launcher
+lifehacker.ru##.social-and-date__left
+lifehacker.ru##.widgets-above-comments.widgets-area
+lifehacker.ru##.stripe.container-fluid
+lifehacker.ru##.js-mediator-article.post-content > ul
+||lifehacker.ru/*/$subdocument
+
+! 4pda
+4pda.ru##.news-list > li:nth-of-type(1)
