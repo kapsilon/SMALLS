@@ -7,6 +7,7 @@ habrahabr.ru###TMpanel
 habrahabr.ru##.sticky_init.sidebar_content-area
 habrahabr.ru##.js-sidebar_right.sidebar_comments.sidebar_right
 habrahabr.ru##.promo-block_vacancies.promo-block
+habrahabr.ru##.promo-block_freelansim-tasks.promo-block
 habrahabr.ru##.indented.content_left > .dfp-slot
 habrahabr.ru##.post-share
 
@@ -34,6 +35,7 @@ lifehacker.ru##.widgets-above-comments.widgets-area
 lifehacker.ru##.stripe.container-fluid
 lifehacker.ru##.footer
 lifehacker.ru###popmechanic-form
+lifehacker.ru##.single__bottom-widgets
 ||lifehacker.ru/*/$subdocument
 
 ! 4pda
