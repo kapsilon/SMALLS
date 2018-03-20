@@ -8,8 +8,11 @@ habrahabr.ru##.sticky_init.sidebar_content-area
 habrahabr.ru##.js-sidebar_right.sidebar_comments.sidebar_right
 habrahabr.ru##.promo-block_vacancies.promo-block
 habrahabr.ru##.promo-block_freelansim-tasks.promo-block
+habrahabr.ru##.promo-block_questions.promo-block
 habrahabr.ru##.indented.content_left > .dfp-slot
 habrahabr.ru##.post-share
+habrahabr.ru##.shortcuts_item.content-list__item_post.content-list__item > .dfp-slot
+habrahabr.ru##.shortcuts_item.content-list__item_post.content-list__item > .default-block
 
 ! Kanobu
 kanobu.ru##.js-topbar.b-topbar
@@ -24,6 +27,7 @@ kanobu.ru##.pam.unit-1of3:nth-of-type(2)
 kanobu.ru##.pam.unit-1of3:nth-of-type(3)
 kanobu.ru##.page-footer--bottom-line-content
 kanobu.ru##.informer-container
+kanobu.ru##.news-margin-top.responsive-container:nth-of-type(1)
 
 ! lifehacker
 lifehacker.ru##.fixed-menu
