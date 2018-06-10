@@ -44,6 +44,10 @@ lifehacker.ru##.stripe.container-fluid
 lifehacker.ru##.footer
 lifehacker.ru###popmechanic-form
 lifehacker.ru##.single__bottom-widgets
+lifehacker.ru###lh-club-wrapper
+lifehacker.ru###custom_html-79
+lifehacker.ru##.hc__nodisqus.hcc
+lifehacker.ru##.custom-html-widget.textwidget
 ||lifehacker.ru/*/$subdocument
 
 ! iphones.ru
