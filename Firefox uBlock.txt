@@ -1,18 +1,18 @@
 ! Habrahabr
-habrahabr.ru##.footer-grid_menu
-habrahabr.ru##.layout__row_promo-blocks.layout__row
-habrahabr.ru##.footer
-habrahabr.ru##.layout__row_navbar.layout__row
-habrahabr.ru###TMpanel
-habrahabr.ru##.sticky_init.sidebar_content-area
-habrahabr.ru##.js-sidebar_right.sidebar_comments.sidebar_right
-habrahabr.ru##.promo-block_vacancies.promo-block
-habrahabr.ru##.promo-block_freelansim-tasks.promo-block
-habrahabr.ru##.promo-block_questions.promo-block
-habrahabr.ru##.indented.content_left > .dfp-slot
-habrahabr.ru##.post-share
-habrahabr.ru##.shortcuts_item.content-list__item_post.content-list__item > .dfp-slot
-habrahabr.ru##.shortcuts_item.content-list__item_post.content-list__item > .default-block
+habr.com##.footer-grid_menu
+habr.com##.layout__row_promo-blocks.layout__row
+habr.com##.footer
+habr.com##.layout__row_navbar.layout__row
+habr.com###TMpanel
+habr.com##.sticky_init.sidebar_content-area
+habr.com##.js-sidebar_right.sidebar_comments.sidebar_right
+habr.com##.promo-block_vacancies.promo-block
+habr.com##.promo-block_freelansim-tasks.promo-block
+habr.com##.promo-block_questions.promo-block
+habr.com##.indented.content_left > .dfp-slot
+habr.com##.post-share
+habr.com##.shortcuts_item.content-list__item_post.content-list__item > .dfp-slot
+habr.com##.shortcuts_item.content-list__item_post.content-list__item > .default-block
 
 ! Kanobu
 kanobu.ru##.js-topbar.b-topbar
