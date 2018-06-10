@@ -42,6 +42,29 @@ lifehacker.ru###popmechanic-form
 lifehacker.ru##.single__bottom-widgets
 ||lifehacker.ru/*/$subdocument
 
+! iphones.ru
+www.iphones.ru##.header__cont
+www.iphones.ru##header
+www.iphones.ru##.header__menu-project-cont
+www.iphones.ru##.post__favorites
+www.iphones.ru##.postpage__favorites
+www.iphones.ru##.social-share
+www.iphones.ru##.post_author_desc
+www.iphones.ru##.post__neighbors
+www.iphones.ru##.relatedlist
+www.iphones.ru##.comments__unauth
+www.iphones.ru##.comments__ortho:nth-of-type(5)
+www.iphones.ru##.post__questionlist-cont
+www.iphones.ru##.footer__cont
+www.iphones.ru##.comment__subscription
+www.iphones.ru##.need-telemetry
+www.iphones.ru##.postlist__currency
+www.iphones.ru##.postitem__dpd_block
+www.iphones.ru##.push-notifier
+www.iphones.ru##.push-notifier-block
+www.iphones.ru##.post > div:nth-of-type(1)
+www.iphones.ru##.rand-social-like
+
 ! 4pda
 4pda.ru##.news-list > li:nth-of-type(1)
 
