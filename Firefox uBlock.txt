@@ -48,6 +48,10 @@ lifehacker.ru###lh-club-wrapper
 lifehacker.ru###custom_html-79
 lifehacker.ru##.hc__nodisqus.hcc
 lifehacker.ru##.custom-html-widget.textwidget
+lifehacker.ru##.social-and-date__top.social-and-date
+
+
+lifehacker.ru##.single-post-footer > .ssocial-and-dat
 ||lifehacker.ru/*/$subdocument
 
 ! iphones.ru
@@ -72,6 +76,8 @@ www.iphones.ru##.push-notifier
 www.iphones.ru##.push-notifier-block
 www.iphones.ru##.post > div:nth-of-type(1)
 www.iphones.ru##.rand-social-like
+www.iphones.ru##.action-like
+www.iphones.ru##.postpage_telega
 
 ! 4pda
 4pda.ru##.news-list > li:nth-of-type(1)
