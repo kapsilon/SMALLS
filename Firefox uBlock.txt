@@ -1,9 +1,9 @@
 ! Habrahabr
+habr.com###TMpanel
 habr.com##.footer-grid_menu
 habr.com##.layout__row_promo-blocks.layout__row
 habr.com##.footer
 habr.com##.layout__row_navbar.layout__row
-habr.com###TMpanel
 habr.com##.sticky_init.sidebar_content-area
 habr.com##.js-sidebar_right.sidebar_comments.sidebar_right
 habr.com##.promo-block_vacancies.promo-block
@@ -13,6 +13,7 @@ habr.com##.indented.content_left > .dfp-slot
 habr.com##.post-share
 habr.com##.shortcuts_item.content-list__item_post.content-list__item > .dfp-slot
 habr.com##.shortcuts_item.content-list__item_post.content-list__item > .default-block
+habr.com##.indented.content_left > .default-block_content.default-block
 
 ! Kanobu
 kanobu.ru##.js-topbar.b-topbar
@@ -20,43 +21,40 @@ kanobu.ru##.longread-details-actions
 kanobu.ru##.games-in-news
 kanobu.ru##.js-likes.clearfix.likes-box
 kanobu.ru##.js-share-box.share-box
-kanobu.ru##.clearfix.b-post-tags > .b-post-tags__body
-kanobu.ru##.clearfix.content-text:nth-of-type(5) > .pam.unit-1of1
 kanobu.ru##.pam.unit-1of3:nth-of-type(1)
 kanobu.ru##.pam.unit-1of3:nth-of-type(2)
 kanobu.ru##.pam.unit-1of3:nth-of-type(3)
 kanobu.ru##.page-footer--bottom-line-content
 kanobu.ru##.informer-container
-kanobu.ru##.news-margin-top.responsive-container:nth-of-type(1)
-kanobu.ru##.news-margin-top.responsive-container:nth-of-type(4)
 kanobu.ru##.cybersport-parner-block
 kanobu.ru##.vn-player
 kanobu.ru##.js-comment-form.b-comments__add-comment-form-c
+kanobu.ru##.clearfix.b-post-tags > .b-post-tags__body
+kanobu.ru##.clearfix.content-text:nth-of-type(5) > .pam.unit-1of1
 
 ! lifehacker
+lifehacker.ru###onesignal-bell-launcher
+lifehacker.ru###popmechanic-form
+lifehacker.ru###lh-club-wrapper
+lifehacker.ru###custom_html-79
 lifehacker.ru##.fixed-menu
 lifehacker.ru##.top-menu--wrapper
 lifehacker.ru##.mobile-bar
-lifehacker.ru###onesignal-bell-launcher
 lifehacker.ru##.social-and-date__left
 lifehacker.ru##.widgets-above-comments.widgets-area
 lifehacker.ru##.stripe.container-fluid
 lifehacker.ru##.footer
-lifehacker.ru###popmechanic-form
 lifehacker.ru##.single__bottom-widgets
-lifehacker.ru###lh-club-wrapper
-lifehacker.ru###custom_html-79
 lifehacker.ru##.hc__nodisqus.hcc
 lifehacker.ru##.custom-html-widget.textwidget
-lifehacker.ru##.social-and-date__top.social-and-date
-
-
-lifehacker.ru##.single-post-footer > .ssocial-and-dat
+lifehacker.ru##.social-and-date__top
+lifehacker.ru##.show.banner-under-header
+lifehacker.ru##.single-post-footer > .social-and-date
 ||lifehacker.ru/*/$subdocument
 
 ! iphones.ru
-www.iphones.ru##.header__cont
 www.iphones.ru##header
+www.iphones.ru##.header__cont
 www.iphones.ru##.header__menu-project-cont
 www.iphones.ru##.post__favorites
 www.iphones.ru##.postpage__favorites
@@ -78,6 +76,7 @@ www.iphones.ru##.post > div:nth-of-type(1)
 www.iphones.ru##.rand-social-like
 www.iphones.ru##.action-like
 www.iphones.ru##.postpage_telega
+www.iphones.ru##.postpage_dont_forget_other
 
 ! 4pda
 4pda.ru##.news-list > li:nth-of-type(1)
