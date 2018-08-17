@@ -86,3 +86,7 @@ www.iphones.ru##.postpage_dont_forget_other
 !https://cdn.viqeo.tv/storage/*.mp4
 !<div class="spinner"></div>
 cdn.viqeo.tv/js/vq_starter.js
+
+! Disabling PWA "Add to Home Screen" Button
+!com,org,net,ru##^link[rel="manifest"][href]
+*$csp=manifest-src 'none'
