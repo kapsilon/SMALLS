@@ -16,21 +16,24 @@ habr.com##.shortcuts_item.content-list__item_post.content-list__item > .default-
 habr.com##.indented.content_left > .default-block_content.default-block
 
 ! Kanobu
-kanobu.ru##.js-topbar.b-topbar
-kanobu.ru##.longread-details-actions
-kanobu.ru##.games-in-news
-kanobu.ru##.js-likes.clearfix.likes-box
-kanobu.ru##.js-share-box.share-box
-kanobu.ru##.pam.unit-1of3:nth-of-type(1)
-kanobu.ru##.pam.unit-1of3:nth-of-type(2)
-kanobu.ru##.pam.unit-1of3:nth-of-type(3)
-kanobu.ru##.page-footer--bottom-line-content
-kanobu.ru##.informer-container
-kanobu.ru##.cybersport-parner-block
-kanobu.ru##.vn-player
-kanobu.ru##.js-comment-form.b-comments__add-comment-form-c
-kanobu.ru##.clearfix.b-post-tags > .b-post-tags__body
-kanobu.ru##.clearfix.content-text:nth-of-type(5) > .pam.unit-1of1
+kanobu.ru##.p-r.header
+kanobu.ru##.wrap_top
+kanobu.ru##.c-reviews
+kanobu.ru##.c-expect
+kanobu.ru##.game-mod
+kanobu.ru##.video-mod
+kanobu.ru##.movies-mod
+kanobu.ru##.comics-mod
+kanobu.ru##.tech-mod
+kanobu.ru##.sport-mod
+kanobu.ru##.p-r.footer
+kanobu.ru##.p-r.c-mobileFicher
+kanobu.ru##.intro-mod.p-r.f-w.d-f.c-head > .a-i-c.d-f.c-share
+kanobu.ru##.p-r.c-head_right
+kanobu.ru##.c-likes
+kanobu.ru##.c-itemGames
+kanobu.ru##.c-tags
+kanobu.ru##.c-detail_title
 
 ! lifehacker
 lifehacker.ru###onesignal-bell-launcher
