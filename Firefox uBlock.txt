@@ -36,6 +36,7 @@ kanobu.ru##.c-tags
 kanobu.ru##.c-detail_title
 
 ! lifehacker
+lifehacker.ru###desktop-fixed-bar
 lifehacker.ru###onesignal-bell-launcher
 lifehacker.ru###popmechanic-form
 lifehacker.ru###lh-club-wrapper
