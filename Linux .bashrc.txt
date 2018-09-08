@@ -1,8 +1,8 @@
 ﻿#Universal aliases
 alias aptsearch='apt search --names-only'
 alias edit='nano -NSmu$'
-alias ls='ls --color --group-directories-first'
-alias lsa='ls -A --color --group-directories-first'
+alias ls='ls --color --group-directories-first -p'
+alias lsa='ls -A --color --group-directories-first -p'
 alias rm='rm -iv'
 alias rmdir='rm -iRv'
 alias sudo='sudo '
