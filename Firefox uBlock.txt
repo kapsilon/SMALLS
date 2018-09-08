@@ -34,6 +34,7 @@ kanobu.ru##.c-likes
 kanobu.ru##.c-itemGames
 kanobu.ru##.c-tags
 kanobu.ru##.c-detail_title
+kanobu.ru##.c-notification
 
 ! lifehacker
 lifehacker.ru###desktop-fixed-bar
