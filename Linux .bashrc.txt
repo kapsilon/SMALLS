@@ -1,6 +1,6 @@
 ﻿#Universal aliases
 alias aptsearch='apt search --names-only'
-alias cdi='cd `(echo ".."; ls -A --color=never --group-directories-first -p) | (peco --initial-index=1 --on-cancel=error --prompt="INTERACTIVE-CD: $PWD" --select-1 --selection-prefix=+ || echo ".")`'
+alias cdi='cd `(echo ".." && ls -A --color=never --group-directories-first -p) | (peco --initial-index=1 --on-cancel=error --prompt="INTERACTIVE-CD: $PWD" --selection-prefix=+ || echo ".")`'
 alias edit='nano -NSmu$'
 alias ls='ls --color --group-directories-first -p'
 alias lsa='ls -A --color --group-directories-first -p'
