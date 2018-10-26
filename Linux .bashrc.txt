@@ -4,6 +4,7 @@ alias cdi='cd `(echo ".." && ls -A --color=never --group-directories-first -p) |
 alias edit='nano -NSmu$'
 alias ls='ls --color --group-directories-first -p'
 alias lsa='ls -A --color --group-directories-first -p'
+alias mkdir='mkdir -p'
 alias rm='rm -iv'
 alias rmdir='rm -iRv'
 alias sudo='sudo '
