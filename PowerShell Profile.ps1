@@ -15,6 +15,16 @@ function NewDeirectories-ByNames-InLocalFile {
 }
 Set-Alias -Name ndirs -Value NewDeirectories-ByNames-InLocalFile
 
+
+# Find matching string in file
+Function Find-NotUniqueStrings-InFile($File) {
+    Get-Content $File |
+    Group -NoElement  |
+    Where {$_.Name -NotLike "" -and $_.Count-NotMatch 1} |
+    Format-Table -Property Name -AutoSize -HideTableHeaders
+}
+Set-Alias uniqs -Value Find-NotUniqueStrings-InFile
+
 # Host Foreground & Background
 $Host.PrivateData.ErrorForegroundColor = 'Red'
 $Host.PrivateData.WarningForegroundColor = 'Yellow'
