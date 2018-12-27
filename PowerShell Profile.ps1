@@ -4,27 +4,28 @@
 
 # All filenames in current directory without extension
 function Basenames-OfFiles-InCurrentDirectory {
-      (Get-ChildItem).BaseName
+    (Get-ChildItem).BaseName
 }
 Set-Alias -Name names -Value Basenames-OfFiles-InCurrentDirectory
 
 # New directories by names from local ndirs.txt
 #Get-Content .\ndirs.txt | ForEach {mkdir $_}
 function NewDeirectories-ByNames-InLocalFile {
-      New-Item -Path (Get-Content .\ndirs.txt) -ItemType directory
+    New-Item -Path (Get-Content .\ndirs.txt) -ItemType directory
 }
 Set-Alias -Name ndirs -Value NewDeirectories-ByNames-InLocalFile
 
 
 # Find matching string in file
 Function Find-NotUniqueStrings-InFile($file) {
-  $results = Get-Content $file |
-  Group -NoElement  |
-  Where {$_.Name -NotLike "" -and $_.Count-NotMatch 1} |
-  Format-Table -Property Name -AutoSize -HideTableHeaders
+    $results =
+      Get-Content $file |
+      Group -NoElement  |
+      Where {$_.Name -NotLike "" -and $_.Count-NotMatch 1} |
+      Format-Table -Property Name -AutoSize -HideTableHeaders
 
-  if ($results) {echo $results}
-  else {echo OK}
+    if ($results) {echo $results}
+    else {echo OK}
 }
 Set-Alias uniqs -Value Find-NotUniqueStrings-InFile
 
