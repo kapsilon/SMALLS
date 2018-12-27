@@ -121,7 +121,4 @@ www.iphones.ru##.c_y_style
 4pda.ru##.news-list > li:nth-of-type(1)
 
 ! viqeo
-!https://kanobu.ru/news/sut-sea-ofthieves-onlajn-igra-dlya-normalnyih-lyudej-402968/
-!https://cdn.viqeo.tv/storage/*.mp4
-!<div class="spinner"></div>
 cdn.viqeo.tv/js/vq_starter.js
