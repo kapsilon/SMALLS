@@ -8,12 +8,14 @@ Function Basenames-OfFiles-InCurrentDirectory {
 }
 Set-Alias names -Value Basenames-OfFiles-InCurrentDirectory
 
-# New directories by names from local ndirs.txt
-#Get-Content .\ndirs.txt | ForEach {mkdir $_}
-Function NewDirectories-ByNames-InLocalFile {
-    New-Item -Path (Get-Content .\ndirs.txt) -ItemType directory
+
+# New directories by names from clipboard
+Function NewDirectories-ByNames-InClipboard {
+    $newDirs = Get-Clipboard -Format Text -TextFormatType Text
+    echo $newDirs
+    New-Item -Path ($newDirs) -ItemType directory -Confirm
 }
-Set-Alias ndirs -Value NewDirectories-ByNames-InLocalFile
+Set-Alias newdirs -Value NewDirectories-ByNames-InClipboard
 
 
 # Find matching string in file
