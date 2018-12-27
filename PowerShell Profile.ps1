@@ -10,10 +10,10 @@ Set-Alias names -Value Basenames-OfFiles-InCurrentDirectory
 
 # New directories by names from local ndirs.txt
 #Get-Content .\ndirs.txt | ForEach {mkdir $_}
-Function NewDeirectories-ByNames-InLocalFile {
+Function NewDirectories-ByNames-InLocalFile {
     New-Item -Path (Get-Content .\ndirs.txt) -ItemType directory
 }
-Set-Alias ndirs -Value NewDeirectories-ByNames-InLocalFile
+Set-Alias ndirs -Value NewDirectories-ByNames-InLocalFile
 
 
 # Find matching string in file
