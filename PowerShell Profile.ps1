@@ -17,11 +17,14 @@ Set-Alias -Name ndirs -Value NewDeirectories-ByNames-InLocalFile
 
 
 # Find matching string in file
-Function Find-NotUniqueStrings-InFile($File) {
-    Get-Content $File |
-    Group -NoElement  |
-    Where {$_.Name -NotLike "" -and $_.Count-NotMatch 1} |
-    Format-Table -Property Name -AutoSize -HideTableHeaders
+Function Find-NotUniqueStrings-InFile($file) {
+  $results = Get-Content $file |
+  Group -NoElement  |
+  Where {$_.Name -NotLike "" -and $_.Count-NotMatch 1} |
+  Format-Table -Property Name -AutoSize -HideTableHeaders
+
+  if ($results) {echo $results}
+  else {echo OK}
 }
 Set-Alias uniqs -Value Find-NotUniqueStrings-InFile
 
