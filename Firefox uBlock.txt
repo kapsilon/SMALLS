@@ -69,6 +69,7 @@ lifehacker.ru###onesignal-bell-launcher
 lifehacker.ru###popmechanic-form
 lifehacker.ru###lh-club-wrapper
 lifehacker.ru###custom_html-79
+lifehacker.ru###doodle-dt
 lifehacker.ru##.fixed-menu
 lifehacker.ru##.top-menu--wrapper
 lifehacker.ru##.mobile-bar
@@ -82,6 +83,8 @@ lifehacker.ru##.custom-html-widget.textwidget
 lifehacker.ru##.social-and-date__top
 lifehacker.ru##.show.banner-under-header
 lifehacker.ru##.single-post-footer > .social-and-date
+lifehacker.ru##.mobile-promo-menu
+lifehacker.ru##.read-also
 ||lifehacker.ru/*/$subdocument
 
 ! iphones.ru
