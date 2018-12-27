@@ -3,17 +3,17 @@
 
 
 # All filenames in current directory without extension
-function Basenames-OfFiles-InCurrentDirectory {
+Function Basenames-OfFiles-InCurrentDirectory {
     (Get-ChildItem).BaseName
 }
-Set-Alias -Name names -Value Basenames-OfFiles-InCurrentDirectory
+Set-Alias names -Value Basenames-OfFiles-InCurrentDirectory
 
 # New directories by names from local ndirs.txt
 #Get-Content .\ndirs.txt | ForEach {mkdir $_}
-function NewDeirectories-ByNames-InLocalFile {
+Function NewDeirectories-ByNames-InLocalFile {
     New-Item -Path (Get-Content .\ndirs.txt) -ItemType directory
 }
-Set-Alias -Name ndirs -Value NewDeirectories-ByNames-InLocalFile
+Set-Alias ndirs -Value NewDeirectories-ByNames-InLocalFile
 
 
 # Find matching string in file
@@ -28,6 +28,7 @@ Function Find-NotUniqueStrings-InFile($file) {
     else {echo OK}
 }
 Set-Alias uniqs -Value Find-NotUniqueStrings-InFile
+
 
 # Host Foreground & Background
 $Host.PrivateData.ErrorForegroundColor = 'Red'
