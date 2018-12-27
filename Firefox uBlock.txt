@@ -9,6 +9,8 @@ habr.com###TMpanel
 habr.com##.footer-grid_menu
 habr.com##.layout__row_promo-blocks.layout__row
 habr.com##.footer
+habr.com##.post-share
+habr.com##.page-header__banner
 habr.com##.layout__row_navbar.layout__row
 habr.com##.sticky_init.sidebar_content-area
 habr.com##.js-sidebar_right.sidebar_comments.sidebar_right
@@ -16,10 +18,12 @@ habr.com##.promo-block_vacancies.promo-block
 habr.com##.promo-block_freelansim-tasks.promo-block
 habr.com##.promo-block_questions.promo-block
 habr.com##.indented.content_left > .dfp-slot
-habr.com##.post-share
+habr.com##.content_left > .dfp-slot
 habr.com##.shortcuts_item.content-list__item_post.content-list__item > .dfp-slot
 habr.com##.shortcuts_item.content-list__item_post.content-list__item > .default-block
 habr.com##.indented.content_left > .default-block_content.default-block
+habr.com##.column-wrapper_post-additionals.column-wrapper > .content_left > .default-block_content.default-block
+habr.com##.column-wrapper_post-additionals.column-wrapper > .sidebar_right
 
 ! Kanobu
 kanobu.ru##.p-r.header
