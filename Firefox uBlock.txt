@@ -26,6 +26,9 @@ habr.com##.column-wrapper_post-additionals.column-wrapper > .content_left > .def
 habr.com##.column-wrapper_post-additionals.column-wrapper > .sidebar_right
 
 ! Kanobu
+kanobu.ru###dzen_409590
+kanobu.ru##header.p-r
+kanobu.ru##li.d-f.c-item:nth-of-type(2)
 kanobu.ru##.p-r.header
 kanobu.ru##.wrap_top
 kanobu.ru##.c-reviews
@@ -38,13 +41,27 @@ kanobu.ru##.tech-mod
 kanobu.ru##.sport-mod
 kanobu.ru##.p-r.footer
 kanobu.ru##.p-r.c-mobileFicher
-kanobu.ru##.intro-mod.p-r.f-w.d-f.c-head > .a-i-c.d-f.c-share
 kanobu.ru##.p-r.c-head_right
+kanobu.ru##.p-r._3cJPsqEUF6X9bmVT9l_8el
+kanobu.ru##.p-r._3CXrb3P2EpxJuecr9X26fh
 kanobu.ru##.c-likes
 kanobu.ru##.c-itemGames
 kanobu.ru##.c-tags
 kanobu.ru##.c-detail_title
 kanobu.ru##.c-notification
+kanobu.ru##.c-head_right
+kanobu.ru##.d-f.p-r.c-ficher
+kanobu.ru##.a-i-c.d-f.c-share
+kanobu.ru##.vn-player
+kanobu.ru##.mobile.card-size_l.widget.zen-widget
+kanobu.ru##.a-i-c.d-f.KYYV4-P-vVi7eebwpsa15
+kanobu.ru##._2QPsKz14BGsIGUhguoBL84
+kanobu.ru##.KTwPxkpWDFjfcxiOQuR6l
+kanobu.ru##._33-i4_x3JBEOTiFTT0kM_0
+kanobu.ru##._1chLXBlZ7_HZfQqu1R935U
+kanobu.ru##.p-r.f-w.d-f.c-head > .a-i-c.d-f.c-share
+kanobu.ru##.intro-mod.p-r.f-w.d-f.c-head > .a-i-c.d-f.c-share
+kanobu.ru##section.d-f.c-content:nth-of-type(1) > .c-content_right
 
 ! lifehacker
 lifehacker.ru###desktop-fixed-bar
