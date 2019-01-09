@@ -1,2 +1,0 @@
-# Updating all docker imager in PowerShell
-docker images --format "{{.Repository}}:{{.Tag}}" | ForEach-Object {docker pull "$_"}
