@@ -1,3 +1,5 @@
+@echo off
+
 ::Renaming all archives to RAR
 ren *.cbr *.rar
 ren *.cbz *.rar
