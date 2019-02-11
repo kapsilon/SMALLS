@@ -50,6 +50,9 @@ kanobu.ru##.c-tags
 kanobu.ru##.c-detail_title
 kanobu.ru##.c-notification
 kanobu.ru##.c-head_right
+kanobu.ru##.c-item_type
+kanobu.ru##.c-item_rock
+kanobu.ru##.c-item_comment
 kanobu.ru##.d-f.p-r.c-ficher
 kanobu.ru##.a-i-c.d-f.c-share
 kanobu.ru##.vn-player
