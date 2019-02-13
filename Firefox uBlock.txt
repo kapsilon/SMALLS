@@ -133,6 +133,14 @@ www.iphones.ru##.postpage_dont_forget_other
 www.iphones.ru##.frame_video_fixed
 www.iphones.ru##.c_y_style
 
+! linux.org.ru
+www.linux.org.ru###hd
+www.linux.org.ru###interpage
+www.linux.org.ru###boxlets
+www.linux.org.ru###ft
+www.linux.org.ru###yandex_rtb
+www.linux.org.ru###yandex_rtb_R-A-337082-3
+
 ! 4pda
 4pda.ru##.news-list > li:nth-of-type(1)
 
