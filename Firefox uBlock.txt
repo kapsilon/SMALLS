@@ -24,6 +24,12 @@ habr.com##.shortcuts_item.content-list__item_post.content-list__item > .default-
 habr.com##.indented.content_left > .default-block_content.default-block
 habr.com##.column-wrapper_post-additionals.column-wrapper > .content_left > .default-block_content.default-block
 habr.com##.column-wrapper_post-additionals.column-wrapper > .sidebar_right
+m.habr.com##.tm-header
+m.habr.com##.tm-article-hubs
+m.habr.com##.tm-article__sticked-counters-wrapper
+m.habr.com##.tm-page-article__sharing
+m.habr.com##.tm-article-list-block
+m.habr.com##.tm-footer
 
 ! Kanobu
 kanobu.ru###dzen_409590
