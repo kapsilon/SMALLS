@@ -132,6 +132,9 @@ www.iphones.ru##.postpage_telega
 www.iphones.ru##.postpage_dont_forget_other
 www.iphones.ru##.frame_video_fixed
 www.iphones.ru##.c_y_style
+www.iphones.ru##.links_near_postitem
+www.iphones.ru##.comment-content_block > .adsbygoogle
+www.iphones.ru##.adsbygoogle
 
 ! linux.org.ru
 www.linux.org.ru###hd
