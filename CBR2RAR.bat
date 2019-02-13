@@ -5,5 +5,5 @@ ren *.cbr *.rar
 ren *.cbz *.rar
 ren *.zip *.rar
 
-::Delete artickle THE
-ren "The *.*" "////*.*"
+::Delete article THE
+ren "The *.rar" "////*.rar"
