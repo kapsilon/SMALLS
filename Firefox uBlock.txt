@@ -91,6 +91,10 @@ lifehacker.ru##.show.banner-under-header
 lifehacker.ru##.single-post-footer > .social-and-date
 lifehacker.ru##.mobile-promo-menu
 lifehacker.ru##.read-also
+lifehacker.ru##.flow__header
+lifehacker.ru##[href*="https://ads.adfox.ru/200984/goLink"]
+||ad.adriver.ru/cgi-bin/rle.cgi$image
+||ads.adfox.ru/200984/getCode$image
 ||lifehacker.ru/*/$subdocument
 
 ! iphones.ru
