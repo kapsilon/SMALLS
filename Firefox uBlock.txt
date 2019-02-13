@@ -135,6 +135,8 @@ www.iphones.ru##.c_y_style
 www.iphones.ru##.links_near_postitem
 www.iphones.ru##.comment-content_block > .adsbygoogle
 www.iphones.ru##.adsbygoogle
+www.iphones.ru##.gravatar.avatar-100.avatar
+www.iphones.ru##.gravatar.avatar-100.avatars
 
 ! linux.org.ru
 www.linux.org.ru###hd
