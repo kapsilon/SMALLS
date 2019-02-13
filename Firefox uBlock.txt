@@ -56,12 +56,15 @@ kanobu.ru##.c-item_comment
 kanobu.ru##.d-f.p-r.c-ficher
 kanobu.ru##.a-i-c.d-f.c-share
 kanobu.ru##.vn-player
+kanobu.ru##.has-swiper
 kanobu.ru##.mobile.card-size_l.widget.zen-widget
 kanobu.ru##.a-i-c.d-f.KYYV4-P-vVi7eebwpsa15
 kanobu.ru##._2QPsKz14BGsIGUhguoBL84
 kanobu.ru##.KTwPxkpWDFjfcxiOQuR6l
 kanobu.ru##._33-i4_x3JBEOTiFTT0kM_0
 kanobu.ru##._1chLXBlZ7_HZfQqu1R935U
+kanobu.ru##._3V25jiU8i7PleviI_UzmH4
+kanobu.ru##._3aToFnrBH_rLMNz78zlIXF
 kanobu.ru##.p-r.f-w.d-f.c-head > .a-i-c.d-f.c-share
 kanobu.ru##.intro-mod.p-r.f-w.d-f.c-head > .a-i-c.d-f.c-share
 kanobu.ru##section.d-f.c-content:nth-of-type(1) > .c-content_right
