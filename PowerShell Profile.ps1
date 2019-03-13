@@ -32,6 +32,12 @@ Function Find-NotUniqueStrings-InFile($file) {
 Set-Alias uniqs -Value Find-NotUniqueStrings-InFile
 
 
+# PowerShell Prompt with colors
+$ESC = [char]27
+Function Prompt {
+    "$ESC[30;104m$env:USERNAME@$env:COMPUTERNAME$ESC[30;47m $(Get-Location) $ESC[30;102m$('PS' * ($nestedPromptLevel + 1))$ESC[0m "
+}
+
 # Host Foreground & Background
 $Host.PrivateData.ErrorForegroundColor = 'Red'
 $Host.PrivateData.WarningForegroundColor = 'Yellow'
