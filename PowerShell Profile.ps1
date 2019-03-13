@@ -51,5 +51,5 @@ $Host.PrivateData.VerboseBackgroundColor = 'DarkGray'
 $Host.PrivateData.ProgressBackgroundColor = 'Cyan'
 
 # All Clear
-clear
-cd\
+Clear-Host
+cd /
