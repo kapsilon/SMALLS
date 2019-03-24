@@ -1,0 +1,14 @@
+/*
+Advanced CCS Customization of BoardGameArena
+Add this to https://en.boardgamearena.com/#!preferences?section=advanced
+Using !important to override existing CSS
+*/
+
+html {
+background: url("") !important;
+background-color: #778899 !important;
+}
+
+#other_games_title {
+display: none !important;
+}
