@@ -12,3 +12,24 @@ background-color: #778899 !important;
 #other_games_title {
 display: none !important;
 }
+
+#chatbar {
+left: 200px !important;
+}
+
+/*Krosmaster Arena*/
+.playerstock {
+border-radius: 20px;
+}
+
+.reward_block {
+background-color: transparent !important;
+}
+
+.player_boards {
+font-size: 20px !important;
+}
+
+.player_score_value {
+font-size: 24px !important;
+}
