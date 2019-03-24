@@ -5,7 +5,7 @@ Using !important to override existing CSS
 */
 
 html {
-background: url("") !important;
+background-image: none !important;
 background-color: #778899 !important;
 }
 
