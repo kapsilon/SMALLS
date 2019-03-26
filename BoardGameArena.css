@@ -33,3 +33,9 @@ font-size: 20px !important;
 .player_score_value {
 font-size: 24px !important;
 }
+
+.minidieface{
+background-size: 450px 180px;
+width: 45px;
+height: 45px;
+}
