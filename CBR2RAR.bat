@@ -7,3 +7,4 @@ ren *.zip *.rar
 
 ::Delete article THE
 ren "The *.rar" "////*.rar"
+ren "The_*.rar" "////*.rar"
