@@ -1,6 +1,6 @@
 ## Highlighting for BASH scripts.
 
-syntax "sh" "\.sh$" "bashrc"
+syntax "sh" "\.sh$" "\.bashrc"
 header "^#!.*((ba|da|k|pdk)?sh[-0-9_]*|openrc-run|runscript)"
 magic "(POSIX|Bourne-Again) shell script.*text"
 linter dash -n
