@@ -1,4 +1,4 @@
-#UBUNTU BASH SETTINGS
+﻿#UBUNTU BASH SETTINGS
 case $- in
     *i*) ;;
       *) return;;
