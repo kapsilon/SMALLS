@@ -8,4 +8,4 @@
 # Copy this text to file
 # sudo chmod +x 01-neofetch
 
-neofetch
+neofetch --disable title
