@@ -1,0 +1,96 @@
+Copy file to C:\Users\Sergey\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\RoamingState\profiles.json
+Documentation https://github.com/microsoft/terminal/blob/master/doc/cascadia/SettingsSchema.md
+{
+    "globals" :
+    {
+        "alwaysShowTabs" : true,
+        "defaultProfile" : "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+        "initialCols" : 120,
+        "initialRows" : 60,
+        "keybindings" :,
+        "requestedTheme" : "system",
+        "showTabsInTitlebar" : true,
+        "showTerminalTitleInTitlebar" : true
+    },
+    "profiles" :
+    [
+        {
+            "acrylicOpacity" : 0.5,
+            "closeOnExit" : true,
+            "colorScheme" : "Solarized Dark",
+            "commandline" : "powershell.exe",
+            "cursorColor" : "#FFFFFF",
+            "cursorShape" : "vintage",
+            "fontFace" : "Lucida Console",
+            "fontSize" : 11,
+            "guid" : "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+            "historySize" : 1001,
+            "icon" : "ms-appx:///ProfileIcons/{61c54bbd-c2c6-5271-96e7-009a87ff44bf}.png",
+            "name" : "PowerShell",
+            "padding" : "0, 10, 0, 0",
+            "snapOnInput" : true,
+            "startingDirectory" : "%USERPROFILE%",
+            "useAcrylic" : false
+        },
+        {
+            "acrylicOpacity" : 0.5,
+            "closeOnExit" : true,
+            "colorScheme" : "Solarized Dark",
+            "commandline" : "cmd.exe /K title cmd",
+            "cursorColor" : "#FFFFFF",
+            "cursorShape" : "vintage",
+            "fontFace" : "Lucida Console",
+            "fontSize" : 11,
+            "guid" : "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+            "historySize" : 1001,
+            "icon" : "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png",
+            "name" : "cmd",
+            "padding" : "0, 10, 0, 0",
+            "snapOnInput" : true,
+            "startingDirectory" : "%USERPROFILE%",
+            "useAcrylic" : false
+        },
+        {
+            "acrylicOpacity" : 0.5,
+            "closeOnExit" : true,
+            "colorScheme" : "Solarized Dark",
+            "commandline" : "wsl.exe -d Ubuntu",
+            "cursorColor" : "#FFFFFF",
+            "cursorShape" : "vintage",
+            "fontFace" : "Lucida Console",
+            "fontSize" : 12,
+            "guid" : "{2c4de342-38b7-51cf-b940-2309a097f518}",
+            "historySize" : 1001,
+            "icon" : "C:\\Windows\\IconUSE\\Ubuntu.ico",
+            "name" : "Ubuntu",
+            "padding" : "0, 10, 0, 0",
+            "snapOnInput" : true,
+            "startingDirectory" : "C:\\Users\\Sergey\\AppData\\Local\\Packages\\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\\LocalState\\rootfs\\home\\kapsilon\\",
+            "useAcrylic" : false
+        }
+    ],
+    "schemes" :
+    [
+        {
+            "background" : "#073642",
+            "black" : "#073642",
+            "blue" : "#268BD2",
+            "brightBlack" : "#002B36",
+            "brightBlue" : "#268BD2",
+            "brightCyan" : "#93A1A1",
+            "brightGreen" : "#859900",
+            "brightPurple" : "#6C71C4",
+            "brightRed" : "#CB4B16",
+            "brightWhite" : "#FDF6E3",
+            "brightYellow" : "#657B83",
+            "cyan" : "#2AA198",
+            "foreground" : "#FDF6E3",
+            "green" : "#859900",
+            "name" : "Solarized Dark",
+            "purple" : "#D33682",
+            "red" : "#D30102",
+            "white" : "#EEE8D5",
+            "yellow" : "#B58900"
+        }
+    ]
+}
