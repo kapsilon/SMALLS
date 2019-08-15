@@ -138,6 +138,13 @@ www.iphones.ru##.adsbygoogle
 www.iphones.ru##.gravatar.avatar-100.avatar
 www.iphones.ru##.gravatar.avatar-100.avatars
 
+! OpenNet
+opennet.ru###lenta_nav
+opennet.ru###top_news
+opennet.ru###tabs_top
+opennet.ru##small
+opennet.ru##.hdr_mobile
+
 ! Linux.Org.Ru
 www.linux.org.ru###hd
 www.linux.org.ru###interpage
