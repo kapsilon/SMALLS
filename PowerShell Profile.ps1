@@ -1,7 +1,5 @@
 # PowerShell Profile is placed in
 #C:\Users\...\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1
-# PowerShell Profile Installation
-#Copy-Item "PowerShell Profile.ps1" -Destination "${home}\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1"
 
 # Docker
 Function Docker-Simple-Control($command) {
