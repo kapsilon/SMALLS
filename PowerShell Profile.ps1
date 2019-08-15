@@ -80,6 +80,17 @@ Function Docker-Simple-Control($command) {
 }
 Set-Alias dock -Value Docker-Simple-Control
 
+Function Docker-Simple-Build($file, $name) {
+    if ($file -and $name) {
+        docker build -f $file -t $name .
+        docker push $name
+    }
+    else {
+        echo 'dockbuild path/to/Dockerfile "repository/name:tag"'
+    }
+}
+Set-Alias dockbuild -Value Docker-Simple-Build
+
 # Copying all folders and files
 Function RoboCopy-All-Files($oldDirectory, $newDirectory) {
     robocopy  `
