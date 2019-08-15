@@ -42,7 +42,7 @@ Function Docker-Simple-Control($command) {
         git {
             docker run -it --rm `
                 --name git `
-                -v ${home}/_GITPATH:/root1 `
+                -v ${home}/_GITPATH:/root `
                 -v ${pwd}:/project `
                 -w /project `
                 kapsilon/git:ps `
