@@ -27,25 +27,26 @@ Function Docker-Simple-Control($command) {
         update {
             docker images --format "{{.Repository}}:{{.Tag}}" | ForEach-Object { docker pull "$_" }
         }
-        conts{
+        conts {
             docker ps
         }
-        contsrm{
+        contsrm {
             docker rm $(docker ps -a -q)
         }
-        images{
+        images {
             docker images
         }
-        imagesrm{
+        imagesrm {
             docker rmi $(docker images -q)
         }
-        git { #not interactive(((
+        git {
             docker run -it --rm `
-            --name git `
-            -v ${pwd}:/project `
-            -w /project `
-            alpine/git `
-            /bin/bash
+                --name git `
+                -v ${home}/_GITPATH:/root1 `
+                -v ${pwd}:/project `
+                -w /project `
+                kapsilon/git:ps `
+                /bin/bash
         }
         go {
             docker run -it --rm `
@@ -80,28 +81,28 @@ Function Docker-Simple-Control($command) {
 Set-Alias dock -Value Docker-Simple-Control
 
 # Copying all folders and files
-Function RoboCopy-All-Files($oldDirectory, $newDirectory){
+Function RoboCopy-All-Files($oldDirectory, $newDirectory) {
     robocopy  `
-    $oldDirectory `
-    $newDirectory `
-    /E `
-    /COPY:DAT `
-    /DCOPY:DAT `
-    /R:100 `
-    /sl
+        $oldDirectory `
+        $newDirectory `
+        /E `
+        /COPY:DAT `
+        /DCOPY:DAT `
+        /R:100 `
+        /sl
 }
 Set-Alias copyall -Value RoboCopy-All-Files
 
 # Create tree of files with zero length
-Function RoboCopy-Zero-Tree($oldDirectory, $newDirectory){
+Function RoboCopy-Zero-Tree($oldDirectory, $newDirectory) {
     robocopy  `
-    $oldDirectory `
-    $newDirectory `
-    /CREATE `
-    /MIR `
-    /COPY:DAT `
-    /DCOPY:DAT `
-    /R:100
+        $oldDirectory `
+        $newDirectory `
+        /CREATE `
+        /MIR `
+        /COPY:DAT `
+        /DCOPY:DAT `
+        /R:100
 }
 
 # All filenames in current directory without extension
@@ -123,13 +124,13 @@ Set-Alias newdirs -Value NewDirectories-ByNames-InClipboard
 # Find matching string in file
 Function Find-NotUniqueStrings-InFile($file) {
     $results =
-      Get-Content $file |
-      Group -NoElement  |
-      Where {$_.Name -NotLike "" -and $_.Count-NotMatch 1} |
-      Format-Table -Property Name -AutoSize -HideTableHeaders
+    Get-Content $file |
+    Group -NoElement |
+    Where { $_.Name -NotLike "" -and $_.Count -NotMatch 1 } |
+    Format-Table -Property Name -AutoSize -HideTableHeaders
 
-    if ($results) {echo $results}
-    else {echo OK}
+    if ($results) { echo $results }
+    else { echo OK }
 }
 Set-Alias uniqs -Value Find-NotUniqueStrings-InFile
 
