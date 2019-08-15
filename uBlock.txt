@@ -24,12 +24,17 @@ habr.com##.shortcuts_item.content-list__item_post.content-list__item > .default-
 habr.com##.indented.content_left > .default-block_content.default-block
 habr.com##.column-wrapper_post-additionals.column-wrapper > .content_left > .default-block_content.default-block
 habr.com##.column-wrapper_post-additionals.column-wrapper > .sidebar_right
+habr.com##.default-block
+habr.com##.new-block
+habr.com##.footer-misprints
+habr.com##.post-donate
 m.habr.com##.tm-header
 m.habr.com##.tm-article-hubs
 m.habr.com##.tm-article__sticked-counters-wrapper
 m.habr.com##.tm-page-article__sharing
 m.habr.com##.tm-article-list-block
 m.habr.com##.tm-footer
+m.habr.com##.tm-article-donate
 
 ! Kanobu
 kanobu.ru###dzen_409590
@@ -73,6 +78,7 @@ kanobu.ru##._3V25jiU8i7PleviI_UzmH4
 kanobu.ru##._3aToFnrBH_rLMNz78zlIXF
 kanobu.ru##.p-r.f-w.d-f.c-head > .a-i-c.d-f.c-share
 kanobu.ru##.intro-mod.p-r.f-w.d-f.c-head > .a-i-c.d-f.c-share
+kanobu.ru##.responsive-img
 kanobu.ru##section.d-f.c-content:nth-of-type(1) > .c-content_right
 
 ! Lifehacker
@@ -82,6 +88,7 @@ lifehacker.ru###popmechanic-form
 lifehacker.ru###lh-club-wrapper
 lifehacker.ru###custom_html-79
 lifehacker.ru###doodle-dt
+lifehacker.ru###mc_embed_signup
 lifehacker.ru##.fixed-menu
 lifehacker.ru##.top-menu--wrapper
 lifehacker.ru##.mobile-bar
@@ -98,12 +105,20 @@ lifehacker.ru##.single-post-footer > .social-and-date
 lifehacker.ru##.mobile-promo-menu
 lifehacker.ru##.read-also
 lifehacker.ru##.flow__header
+lifehacker.ru##.carousel__wrapper
+lifehacker.ru##.white-box
+lifehacker.ru##.single__fix-width-sidebar
+lifehacker.ru##.side-banner--wrapper
+lifehacker.ru##.web_conference
 lifehacker.ru##[href*="https://ads.adfox.ru/200984/goLink"]
+lifehacker.ru##[class*="js-tp-powered-by-wrapper-klit"]
 ||ad.adriver.ru/cgi-bin/rle.cgi$image
 ||ads.adfox.ru/200984/getCode$image
 ||lifehacker.ru/*/$subdocument
 
 ! iPhones.ru
+www.iphones.ru###gallery-1
+www.iphones.ru###topcontrol
 www.iphones.ru##center
 www.iphones.ru##header
 www.iphones.ru##.header__cont
@@ -137,6 +152,13 @@ www.iphones.ru##.comment-content_block > .adsbygoogle
 www.iphones.ru##.adsbygoogle
 www.iphones.ru##.gravatar.avatar-100.avatar
 www.iphones.ru##.gravatar.avatar-100.avatars
+www.iphones.ru##.cookie_privacy_block
+www.iphones.ru##.externalofferlist-h
+www.iphones.ru##.onsubject
+www.iphones.ru##.postlis_tag_block__tags
+www.iphones.ru##.yota_float
+www.iphones.ru##.yota_typewriter
+www.iphones.ru##.sidebar
 
 ! OpenNet
 opennet.ru###lenta_nav
