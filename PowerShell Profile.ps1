@@ -9,7 +9,6 @@ Function Docker-Simple-Control($command) {
     $host.UI.RawUI.WindowTitle = "$command (Docker) | ${pwd}"
     Switch ($command) {
         start {
-            docker pull alpine/git
             docker pull bash
             docker pull cirrusci/flutter
             docker pull elasticsearch
@@ -20,7 +19,9 @@ Function Docker-Simple-Control($command) {
             docker pull mathematica12/mathematica12
             docker pull node
             docker pull postgres
-            docker pull python
+            docker pull omnimir/git
+            docker pull omnimir/go
+            docker pull omnimir/python
             docker pull tensorflow/tensorflow
             docker pull wordpress
         }
@@ -45,7 +46,7 @@ Function Docker-Simple-Control($command) {
                 -v ${home}/_GITPATH:/root `
                 -v ${pwd}:/project `
                 -w /project `
-                kapsilon/git:ps `
+                omnimir/git:latest `
                 /bin/bash
         }
         go {
@@ -57,7 +58,7 @@ Function Docker-Simple-Control($command) {
                 -v ${home}/_GOPATH:/gopath `
                 -v ${pwd}:/project `
                 -w /project `
-                golang:latest `
+                omnimir/go:latest `
                 /bin/bash
         }
         python {
@@ -66,7 +67,7 @@ Function Docker-Simple-Control($command) {
                 -v ${home}/_PYPATH:/usr/local/lib/python3.7/site-packages `
                 -v ${pwd}:/project `
                 -w /project `
-                python:latest `
+                omnimir/python:latest `
                 /bin/bash
         }
         default {
