@@ -92,6 +92,18 @@ Function RoboCopy-All-Files($oldDirectory, $newDirectory){
 }
 Set-Alias copyall -Value RoboCopy-All-Files
 
+# Create tree of files with zero length
+Function RoboCopy-Zero-Tree($oldDirectory, $newDirectory){
+    robocopy  `
+    $oldDirectory `
+    $newDirectory `
+    /CREATE `
+    /MIR `
+    /COPY:DAT `
+    /DCOPY:DAT `
+    /R:100
+}
+
 # All filenames in current directory without extension
 Function Basenames-OfFiles-InCurrentDirectory {
     (Get-ChildItem).BaseName
