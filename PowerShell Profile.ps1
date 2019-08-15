@@ -79,6 +79,19 @@ Function Docker-Simple-Control($command) {
 }
 Set-Alias dock -Value Docker-Simple-Control
 
+# Copying all folders and files
+Function RoboCopy-All-Files($oldDirectory, $newDirectory){
+    robocopy  `
+    $oldDirectory `
+    $newDirectory `
+    /E `
+    /COPY:DAT `
+    /DCOPY:DAT `
+    /R:100 `
+    /sl
+}
+Set-Alias copyall -Value RoboCopy-All-Files
+
 # All filenames in current directory without extension
 Function Basenames-OfFiles-InCurrentDirectory {
     (Get-ChildItem).BaseName
