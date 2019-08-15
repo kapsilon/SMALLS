@@ -75,7 +75,7 @@ kanobu.ru##.p-r.f-w.d-f.c-head > .a-i-c.d-f.c-share
 kanobu.ru##.intro-mod.p-r.f-w.d-f.c-head > .a-i-c.d-f.c-share
 kanobu.ru##section.d-f.c-content:nth-of-type(1) > .c-content_right
 
-! lifehacker
+! Lifehacker
 lifehacker.ru###desktop-fixed-bar
 lifehacker.ru###onesignal-bell-launcher
 lifehacker.ru###popmechanic-form
@@ -103,7 +103,7 @@ lifehacker.ru##[href*="https://ads.adfox.ru/200984/goLink"]
 ||ads.adfox.ru/200984/getCode$image
 ||lifehacker.ru/*/$subdocument
 
-! iphones.ru
+! iPhones.ru
 www.iphones.ru##center
 www.iphones.ru##header
 www.iphones.ru##.header__cont
@@ -138,7 +138,7 @@ www.iphones.ru##.adsbygoogle
 www.iphones.ru##.gravatar.avatar-100.avatar
 www.iphones.ru##.gravatar.avatar-100.avatars
 
-! linux.org.ru
+! Linux.Org.Ru
 www.linux.org.ru###hd
 www.linux.org.ru###interpage
 www.linux.org.ru###boxlets
