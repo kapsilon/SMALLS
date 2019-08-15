@@ -1,6 +1,97 @@
 # PowerShell Profile is placed in
 #C:\Users\...\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1
 
+# Docker
+Function Docker-Simple-Control($command) {
+    $host.UI.RawUI.WindowTitle = "$command (Docker) | ${pwd}"
+    Switch ($command) {
+        start {
+            docker pull alpine/git
+            docker pull bash
+            docker pull cirrusci/flutter
+            docker pull elasticsearch
+            docker pull gogs/gogs
+            docker pull haskell
+            docker pull libreoffice/online
+            docker pull mariadb
+            docker pull mathematica12/mathematica12
+            docker pull node
+            docker pull postgres
+            docker pull python
+            docker pull tensorflow/tensorflow
+            docker pull wordpress
+        }
+        update {
+            docker images --format "{{.Repository}}:{{.Tag}}" | ForEach-Object { docker pull "$_" }
+        }
+        conts{
+            docker ps
+        }
+        contsrm{
+            docker rm $(docker ps -a -q)
+        }
+        images{
+            docker images
+        }
+        imagesrm{
+            docker rmi $(docker images -q)
+        }
+        go {
+            docker run -it --rm `
+                --name go `
+                -e GOARCH=amd64 `
+                -e GOOS=windows `
+                -e GOPATH=/gopath `
+                -v ${home}/_GOPATH:/gopath `
+                -v ${pwd}:/project `
+                -w /project `
+                golang:latest `
+                /bin/bash
+        }
+        python {
+            docker run -it --rm `
+                --name python `
+                -v ${home}/_PYPATH:/usr/local/lib/python3.7/site-packages `
+                -v ${pwd}:/project `
+                -w /project `
+                python:latest `
+                /bin/bash
+        }
+        default {
+            echo "Administration"
+            echo "  start, update, conts, contsrm, images, imagesrm"
+            echo "Languages"
+            echo "  go, python"
+        }
+    }
+    $host.UI.RawUI.WindowTitle = "PowerShell"
+}
+Set-Alias dock -Value Docker-Simple-Control
+
+# Copying all folders and files
+Function RoboCopy-All-Files($oldDirectory, $newDirectory){
+    robocopy  `
+    $oldDirectory `
+    $newDirectory `
+    /E `
+    /COPY:DAT `
+    /DCOPY:DAT `
+    /R:100 `
+    /sl
+}
+Set-Alias copyall -Value RoboCopy-All-Files
+
+# Create tree of files with zero length
+Function RoboCopy-Zero-Tree($oldDirectory, $newDirectory){
+    robocopy  `
+    $oldDirectory `
+    $newDirectory `
+    /CREATE `
+    /MIR `
+    /COPY:DAT `
+    /DCOPY:DAT `
+    /R:100
+}
 
 # All filenames in current directory without extension
 Function Basenames-OfFiles-InCurrentDirectory {
