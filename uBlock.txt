@@ -164,7 +164,6 @@ www.iphones.ru##header
 opennet.ru###lenta_nav
 opennet.ru###top_news
 opennet.ru###tabs_top
-opennet.ru##.hdr_mobile
 opennet.ru##small
 
 ! Linux.Org.Ru
