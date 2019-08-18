@@ -72,9 +72,9 @@ Function Docker-Simple-Control($command) {
         }
         default {
             echo "Administration"
-            echo "Languages"
-            echo "  go, python"
             echo "  start, update, conts, contsrm, ims, imsrm"
+            echo "Systems"
+            echo "  git, go, python"
         }
     }
     $host.UI.RawUI.WindowTitle = "PowerShell"
