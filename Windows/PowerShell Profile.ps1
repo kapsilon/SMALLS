@@ -34,10 +34,10 @@ Function Docker-Simple-Control($command) {
         contsrm {
             docker rm $(docker ps -a -q)
         }
-        images {
+        ims {
             docker images
         }
-        imagesrm {
+        imsrm {
             docker rmi $(docker images -q)
         }
         git {
@@ -72,9 +72,9 @@ Function Docker-Simple-Control($command) {
         }
         default {
             echo "Administration"
-            echo "  start, update, conts, contsrm, images, imagesrm"
             echo "Languages"
             echo "  go, python"
+            echo "  start, update, conts, contsrm, ims, imsrm"
         }
     }
     $host.UI.RawUI.WindowTitle = "PowerShell"
