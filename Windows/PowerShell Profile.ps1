@@ -202,6 +202,12 @@ Function Compare-Difference-Of-Trees($old, $new, $diff) {
 }
 Set-Alias difftree -Value Compare-Difference-Of-Trees
 
+# Get full path of symbolic link
+Function Get-Full-Path-of-Symbol-Link($path) {
+    Get-Item $path | Select-Object -ExpandProperty Target
+}
+Set-Alias linkpath -Value Get-Full-Path-of-Symbol-Link
+
 # PowerShell Prompt with colors
 $ESC = [char]27
 Function Prompt {
