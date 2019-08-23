@@ -190,6 +190,17 @@ Function Find-NotUniqueStrings-InFile($file) {
 }
 Set-Alias uniqs -Value Find-NotUniqueStrings-InFile
 
+# Very simple diff of file trees
+Function Compare-Difference-Of-Trees($old, $new, $diff) {
+    if ($old -and $new -and $diff) {
+        $treeold = tree $old
+        $treenew = tree $new
+        Compare-Object $treeold $treenew > $diff
+    } else{
+        echo "difftree path/to/dir1 path/to/dir2 path/to/difffile"
+    }
+}
+Set-Alias difftree -Value Compare-Difference-Of-Trees
 
 # PowerShell Prompt with colors
 $ESC = [char]27
