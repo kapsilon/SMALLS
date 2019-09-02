@@ -5,7 +5,6 @@ DELETE THESE LINES!
     "profiles" :
     [
         {
-            "acrylicOpacity" : 0.5,
             "closeOnExit" : true,
             "colorScheme" : "Solarized Dark",
             "commandline" : "powershell.exe",
@@ -20,10 +19,8 @@ DELETE THESE LINES!
             "padding" : "0, 10, 0, 0",
             "snapOnInput" : true,
             "startingDirectory" : "%USERPROFILE%",
-            "useAcrylic" : false
         },
         {
-            "acrylicOpacity" : 0.5,
             "closeOnExit" : true,
             "colorScheme" : "Solarized Dark",
             "commandline" : "cmd.exe /K title cmd",
@@ -38,7 +35,6 @@ DELETE THESE LINES!
             "padding" : "0, 10, 0, 0",
             "snapOnInput" : true,
             "startingDirectory" : "%USERPROFILE%",
-            "useAcrylic" : false
         },
     "globals": {
       "alwaysShowTabs": true,
@@ -47,7 +43,6 @@ DELETE THESE LINES!
       "initialRows": 60,
       "keybindings": [
         {
-            "acrylicOpacity" : 0.5,
             "closeOnExit" : true,
             "colorScheme" : "Solarized Dark",
             "commandline" : "wsl.exe -d Ubuntu",
@@ -62,7 +57,6 @@ DELETE THESE LINES!
             "padding" : "0, 10, 0, 0",
             "snapOnInput" : true,
             "startingDirectory" : "C:\\Users\\Sergey\\AppData\\Local\\Packages\\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\\LocalState\\rootfs\\home\\kapsilon\\",
-            "useAcrylic" : false
           "command": "paste",
           "keys": ["ctrl+c"]
         }
