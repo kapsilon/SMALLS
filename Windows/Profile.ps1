@@ -1,6 +1,5 @@
 # PowerShell Profile Installation
-#Copy-Item "PowerShell Profile.ps1" -Destination "${home}\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1"
-
+#Copy-Item Profile.ps1 -Destination "${home}\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1"
 
 Import-Module ($PSScriptRoot + "\Docker.psm1")
 Import-Module ($PSScriptRoot + "\RoboCopy.psm1")
