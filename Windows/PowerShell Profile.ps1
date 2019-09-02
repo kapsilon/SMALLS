@@ -10,7 +10,6 @@ Function Basenames-OfFiles-InCurrentDirectory {
 }
 Set-Alias names -Value Basenames-OfFiles-InCurrentDirectory
 
-
 # New directories by names from clipboard
 Function NewDirectories-ByNames-InClipboard {
     $newDirs = Get-Clipboard -Format Text -TextFormatType Text
@@ -18,7 +17,6 @@ Function NewDirectories-ByNames-InClipboard {
     New-Item -Path ($newDirs) -ItemType directory -Confirm
 }
 Set-Alias newdirs -Value NewDirectories-ByNames-InClipboard
-
 
 # Find matching string in file
 Function Find-NotUniqueStrings-InFile($file) {
