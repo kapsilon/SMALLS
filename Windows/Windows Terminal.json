@@ -2,40 +2,6 @@ Copy file to "%userprofile%\AppData\Local\Packages\Microsoft.WindowsTerminal_8we
 Documentation https://github.com/microsoft/terminal/blob/master/doc/cascadia/SettingsSchema.md
 DELETE THESE LINES!
 {
-    "profiles" :
-    [
-        {
-            "closeOnExit" : true,
-            "colorScheme" : "Solarized Dark",
-            "commandline" : "powershell.exe",
-            "cursorColor" : "#FFFFFF",
-            "cursorShape" : "vintage",
-            "fontFace" : "Lucida Console",
-            "fontSize" : 11,
-            "guid" : "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-            "historySize" : 1001,
-            "icon" : "ms-appx:///ProfileIcons/{61c54bbd-c2c6-5271-96e7-009a87ff44bf}.png",
-            "name" : "PowerShell",
-            "padding" : "0, 10, 0, 0",
-            "snapOnInput" : true,
-            "startingDirectory" : "%USERPROFILE%",
-        },
-        {
-            "closeOnExit" : true,
-            "colorScheme" : "Solarized Dark",
-            "commandline" : "cmd.exe /K title cmd",
-            "cursorColor" : "#FFFFFF",
-            "cursorShape" : "vintage",
-            "fontFace" : "Lucida Console",
-            "fontSize" : 11,
-            "guid" : "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-            "historySize" : 1001,
-            "icon" : "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png",
-            "name" : "cmd",
-            "padding" : "0, 10, 0, 0",
-            "snapOnInput" : true,
-            "startingDirectory" : "%USERPROFILE%",
-        },
     "globals": {
       "alwaysShowTabs": true,
       "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
@@ -43,20 +9,6 @@ DELETE THESE LINES!
       "initialRows": 60,
       "keybindings": [
         {
-            "closeOnExit" : true,
-            "colorScheme" : "Solarized Dark",
-            "commandline" : "wsl.exe -d Ubuntu",
-            "cursorColor" : "#FFFFFF",
-            "cursorShape" : "vintage",
-            "fontFace" : "Lucida Console",
-            "fontSize" : 12,
-            "guid" : "{2c4de342-38b7-51cf-b940-2309a097f518}",
-            "historySize" : 1001,
-            "icon" : "C:\\Windows\\IconUSE\\Ubuntu.ico",
-            "name" : "Ubuntu",
-            "padding" : "0, 10, 0, 0",
-            "snapOnInput" : true,
-            "startingDirectory" : "C:\\Users\\Sergey\\AppData\\Local\\Packages\\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\\LocalState\\rootfs\\home\\kapsilon\\",
           "command": "paste",
           "keys": ["ctrl+c"]
         }
@@ -65,6 +17,56 @@ DELETE THESE LINES!
       "showTabsInTitlebar": true,
       "showTerminalTitleInTitlebar": true
     },
+    "profiles": [
+      {
+        "closeOnExit": true,
+        "colorScheme": "Solarized Dark",
+        "commandline": "powershell.exe",
+        "cursorColor": "#FFFFFF",
+        "cursorShape": "vintage",
+        "fontFace": "Input",
+        "fontSize": 11,
+        "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+        "historySize": 1001,
+        "icon": "ms-appx:///ProfileIcons/{61c54bbd-c2c6-5271-96e7-009a87ff44bf}.png",
+        "name": "PowerShell",
+        "padding": "0, 10, 0, 0",
+        "snapOnInput": true,
+        "startingDirectory": "%USERPROFILE%"
+      },
+      {
+        "closeOnExit": true,
+        "colorScheme": "Solarized Dark",
+        "commandline": "cmd.exe /K cls",
+        "cursorColor": "#FFFFFF",
+        "cursorShape": "vintage",
+        "fontFace": "Input",
+        "fontSize": 11,
+        "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+        "historySize": 1001,
+        "icon": "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png",
+        "name": "cmd",
+        "padding": "0, 10, 0, 0",
+        "snapOnInput": true,
+        "startingDirectory": "C:\\",
+        "tabTitle": "cmd"
+      },
+      {
+        "closeOnExit": true,
+        "colorScheme": "Solarized Dark",
+        "commandline": "wsl.exe -d Ubuntu",
+        "cursorColor": "#FFFFFF",
+        "cursorShape": "vintage",
+        "fontFace": "Input",
+        "fontSize": 11,
+        "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+        "historySize": 1001,
+        "icon": "C:\\Windows\\IconUSE\\Ubuntu.ico",
+        "name": "Ubuntu",
+        "padding": "0, 10, 0, 0",
+        "snapOnInput": true,
+        "startingDirectory": "C:\\Users\\Sergey\\AppData\\Local\\Packages\\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\\LocalState\\rootfs\\home\\kapsilon\\"
+      },
     ],
     "schemes": [
       {
