@@ -70,28 +70,27 @@ DELETE THESE LINES!
             "useAcrylic" : false
         }
     ],
-    "schemes" :
-    [
-        {
-            "background" : "#073642",
-            "black" : "#073642",
-            "blue" : "#268BD2",
-            "brightBlack" : "#002B36",
-            "brightBlue" : "#268BD2",
-            "brightCyan" : "#93A1A1",
-            "brightGreen" : "#859900",
-            "brightPurple" : "#6C71C4",
-            "brightRed" : "#CB4B16",
-            "brightWhite" : "#FDF6E3",
-            "brightYellow" : "#657B83",
-            "cyan" : "#2AA198",
-            "foreground" : "#FDF6E3",
-            "green" : "#859900",
-            "name" : "Solarized Dark",
-            "purple" : "#D33682",
-            "red" : "#D30102",
-            "white" : "#EEE8D5",
-            "yellow" : "#B58900"
-        }
+    "schemes": [
+      {
+        "background": "#073642",
+        "black": "#073642",
+        "blue": "#268BD2",
+        "brightBlack": "#002B36",
+        "brightBlue": "#268BD2",
+        "brightCyan": "#93A1A1",
+        "brightGreen": "#859900",
+        "brightPurple": "#6C71C4",
+        "brightRed": "#CB4B16",
+        "brightWhite": "#FDF6E3",
+        "brightYellow": "#657B83",
+        "cyan": "#2AA198",
+        "foreground": "#FDF6E3",
+        "green": "#859900",
+        "name": "Solarized Dark",
+        "purple": "#D33682",
+        "red": "#D30102",
+        "white": "#EEE8D5",
+        "yellow": "#B58900"
+      }
     ]
 }
