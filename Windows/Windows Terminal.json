@@ -1,5 +1,6 @@
-Copy file to C:\Users\Sergey\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\RoamingState\profiles.json
+Copy file to "%userprofile%\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\RoamingState\profiles.json"
 Documentation https://github.com/microsoft/terminal/blob/master/doc/cascadia/SettingsSchema.md
+DELETE THESE LINES!
 {
     "globals" :
     {
