@@ -67,6 +67,54 @@ DELETE THESE LINES!
         "snapOnInput": true,
         "startingDirectory": "C:\\Users\\Sergey\\AppData\\Local\\Packages\\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\\LocalState\\rootfs\\home\\kapsilon\\"
       },
+      {
+        "closeOnExit": true,
+        "colorScheme": "Solarized Dark",
+        "commandline": "powershell.exe -NoExit -Command \"ssh K2\"",
+        "cursorColor": "#FFFFFF",
+        "cursorShape": "vintage",
+        "fontFace": "Input",
+        "fontSize": 11,
+        "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44b1}",
+        "historySize": 1001,
+        "icon": "ms-appx:///ProfileIcons/{574e775e-4f2a-5b96-ac1e-a2962a402336}.png",
+        "name": "SSH K2",
+        "padding": "0, 10, 0, 0",
+        "snapOnInput": true,
+        "startingDirectory": "%USERPROFILE%"
+      },
+      {
+        "closeOnExit": true,
+        "colorScheme": "Solarized Dark",
+        "commandline": "powershell.exe -NoExit -Command \"ssh Knb\"",
+        "cursorColor": "#FFFFFF",
+        "cursorShape": "vintage",
+        "fontFace": "Input",
+        "fontSize": 11,
+        "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44b2}",
+        "historySize": 1001,
+        "icon": "ms-appx:///ProfileIcons/{574e775e-4f2a-5b96-ac1e-a2962a402336}.png",
+        "name": "SSH Knb",
+        "padding": "0, 10, 0, 0",
+        "snapOnInput": true,
+        "startingDirectory": "%USERPROFILE%"
+      },
+      {
+        "closeOnExit": true,
+        "colorScheme": "Solarized Dark",
+        "commandline": "powershell.exe -NoExit -Command \"ssh Kpi\"",
+        "cursorColor": "#FFFFFF",
+        "cursorShape": "vintage",
+        "fontFace": "Input",
+        "fontSize": 11,
+        "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44b3}",
+        "historySize": 1001,
+        "icon": "ms-appx:///ProfileIcons/{574e775e-4f2a-5b96-ac1e-a2962a402336}.png",
+        "name": "SSH Kpi",
+        "padding": "0, 10, 0, 0",
+        "snapOnInput": true,
+        "startingDirectory": "%USERPROFILE%"
+      }
     ],
     "schemes": [
       {
