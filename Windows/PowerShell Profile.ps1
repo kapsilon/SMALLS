@@ -3,6 +3,8 @@
 
 
 
+# Fix for Bug with Big letters 
+Remove-Module -Name PSReadline  
 
 # All filenames in current directory without extension
 Function Basenames-OfFiles-InCurrentDirectory {
