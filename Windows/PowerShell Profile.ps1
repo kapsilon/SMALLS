@@ -59,4 +59,4 @@ $Host.PrivateData.ProgressBackgroundColor = 'Cyan'
 
 # All Clear
 Clear-Host
-cd /
+Set-Location /
