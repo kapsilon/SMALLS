@@ -43,19 +43,12 @@ Function Prompt {
     "$ESC[30;104m$env:USERNAME@$env:COMPUTERNAME$ESC[30;47m $(Get-Location) $ESC[30;102m$('PS' * ($nestedPromptLevel + 1))$ESC[0m "
 }
 
-<#
-# Host Foreground & Background
-$Host.PrivateData.ErrorForegroundColor = 'Red'
-$Host.PrivateData.WarningForegroundColor = 'Yellow'
-$Host.PrivateData.DebugForegroundColor = 'Green'
-$Host.PrivateData.VerboseForegroundColor = 'Blue'
-$Host.PrivateData.ProgressForegroundColor = 'Gray'
-$Host.PrivateData.ErrorBackgroundColor = 'DarkGray'
-$Host.PrivateData.WarningBackgroundColor = 'DarkGray'
-$Host.PrivateData.DebugBackgroundColor = 'DarkGray'
-$Host.PrivateData.VerboseBackgroundColor = 'DarkGray'
-$Host.PrivateData.ProgressBackgroundColor = 'Cyan'
-#>
+Set-PSReadLineOption -Colors @{
+    Command   = 'DarkBlue'
+    Operator  = 'DarkYellow'
+    Parameter = 'DarkYellow'
+    String    = 'White'
+}
 
 # All Clear
 Clear-Host
