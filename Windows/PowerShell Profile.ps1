@@ -2,6 +2,9 @@
 #Copy-Item "PowerShell Profile.ps1" -Destination "${home}\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1"
 
 
+Import-Module ($PSScriptRoot + "\Docker.psm1")
+Import-Module ($PSScriptRoot + "\RoboCopy.psm1")
+Import-Module ($PSScriptRoot + "\YouTubeDL.psm1")
 
 # Fix for Bug with Big letters 
 Remove-Module -Name PSReadline  
