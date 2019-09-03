@@ -68,4 +68,3 @@ export PS1='${debian_chroot:+($debian_chroot)}\[\033[01;07;94m\]\u@\h\[\033[00m\
 
 #Mount all disks at K1
 alias mountall='sudo mount /Документы/; sudo mount /Загрузки/; sudo mount /Игры/; sudo mount /Разное/'
-
