@@ -18,3 +18,4 @@ color brightred "\$\{[#!]?([-@*#?$!]|[0-9]+|[[:alpha:]_][[:alnum:]_]*)(\[([[:spa
 color black,cyan "(^|[[:space:]])#.*$"
 color brightyellow ""(\\.|[^"])*"" "'(\\.|[^'])*'"
 color ,green "[[:space:]]+$"
+
