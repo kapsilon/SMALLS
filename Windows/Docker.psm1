@@ -3,7 +3,6 @@ Function Docker-Simple-Control($command) {
     $host.UI.RawUI.WindowTitle = "$command (Docker) | ${pwd}"
     Switch ($command) {
         start {
-            docker pull node
             #docker pull bash
             #docker pull cirrusci/flutter
             #docker pull elasticsearch
@@ -16,6 +15,7 @@ Function Docker-Simple-Control($command) {
             #docker pull postgres
             docker pull omnimir/git
             docker pull omnimir/go
+            docker pull omnimir/node
             docker pull omnimir/python
             #docker pull tensorflow/tensorflow
             #docker pull wordpress
@@ -54,6 +54,14 @@ Function Docker-Simple-Control($command) {
                 -v ${pwd}:/project `
                 -w /project `
                 omnimir/go:latest `
+                /bin/bash
+        }
+        node {
+            docker run -it --rm `
+                --name node `
+                -v ${pwd}:/project `
+                -w /project `
+                omnimir/node:latest `
                 /bin/bash
         }
         python {
