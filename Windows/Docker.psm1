@@ -3,22 +3,22 @@ Function Docker-Simple-Control($command) {
     $host.UI.RawUI.WindowTitle = "$command (Docker) | ${pwd}"
     Switch ($command) {
         start {
-            docker pull bash
-            docker pull cirrusci/flutter
-            docker pull elasticsearch
-            docker pull gogs/gogs
-            docker pull haskell
-            docker pull libreoffice/online
-            docker pull mariadb
-            docker pull mathematica12/mathematica12
             docker pull node
-            docker pull php
-            docker pull postgres
+            #docker pull bash
+            #docker pull cirrusci/flutter
+            #docker pull elasticsearch
+            #docker pull gogs/gogs
+            #docker pull haskell
+            #docker pull libreoffice/online
+            #docker pull mariadb
+            #docker pull mathematica12/mathematica12
+            #docker pull php
+            #docker pull postgres
             docker pull omnimir/git
             docker pull omnimir/go
             docker pull omnimir/python
-            docker pull tensorflow/tensorflow
-            docker pull wordpress
+            #docker pull tensorflow/tensorflow
+            #docker pull wordpress
         }
         update {
             docker images --format "{{.Repository}}:{{.Tag}}" | ForEach-Object { docker pull "$_" }
