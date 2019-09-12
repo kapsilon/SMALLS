@@ -65,7 +65,7 @@ DELETE THESE LINES!
         "name": "Ubuntu",
         "padding": "0, 10, 0, 0",
         "snapOnInput": true,
-        "startingDirectory": "C:\\Users\\Sergey\\AppData\\Local\\Packages\\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\\LocalState\\rootfs\\home\\kapsilon\\"
+        "startingDirectory": "C:\\Users\\kapsilon\\AppData\\Local\\Packages\\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\\LocalState\\rootfs\\home\\kapsilon\\"
       },
       {
         "closeOnExit": true,
