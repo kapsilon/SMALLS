@@ -10,7 +10,7 @@ DELETE THESE LINES!
       "keybindings": [
         {
           "command": "paste",
-          "keys": ["ctrl+c"]
+          "keys": ["ctrl+v"]
         }
       ],
       "requestedTheme": "system",
