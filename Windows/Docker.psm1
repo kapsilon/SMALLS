@@ -60,6 +60,7 @@ Function Docker-Simple-Control($command) {
         node {
             docker run -it --rm `
                 --name node `
+                -p 8080:8080 `
                 -v ${pwd}:/project `
                 -w /project `
                 omnimir/node:latest `
