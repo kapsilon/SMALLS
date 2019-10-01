@@ -1,3 +1,9 @@
+# Constants
+$Administration = "start", "update", "conts", "contsrm", "ims", "imsrm"
+$Systems = "git", "go", "node", "python"
+$Repository = "omnimir/"
+$Tag = ":latest"
+
 # Docker Control
 Function Docker-Simple-Control($command) {
     $host.UI.RawUI.WindowTitle = "$command (Docker) | ${pwd}"
@@ -97,3 +103,25 @@ Function Docker-Simple-Build($file, $name) {
     }
 }
 Set-Alias dockbuild -Value Docker-Simple-Build
+
+# Arguments AutoCompletion for dock and dockbuild
+Register-ArgumentCompleter -CommandName Docker-Simple-Control -ParameterName command -ScriptBlock {
+    param($commandName, $parameterName, $wordToComplete, $commandAst, $fakeBoundParameters)
+
+    $Arguments = $Administration + $Systems
+    $Arguments | Where-Object {
+        $_ -like "$wordToComplete*"
+    } | ForEach-Object {
+        "$_"
+    }
+}
+Register-ArgumentCompleter -CommandName Docker-Simple-Build -ParameterName name -ScriptBlock {
+    param($commandName, $parameterName, $wordToComplete, $commandAst, $fakeBoundParameters)
+
+    $Arguments = $Systems | ForEach-Object { $Repository + $_ + $Tag }
+    $Arguments | Where-Object {
+        $_ -like "$wordToComplete*"
+    } | ForEach-Object {
+        "$_"
+    }
+}
