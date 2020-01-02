@@ -208,5 +208,8 @@ www.linux.org.ru###yandex_rtb_R-A-337082-3
 ! 4pda
 4pda.ru##.news-list > li:nth-of-type(1)
 
+! Instagram
+www.instagram.com##.Yx5HN.RnEpo
+
 ! viqeo
 cdn.viqeo.tv/js/vq_starter.js
