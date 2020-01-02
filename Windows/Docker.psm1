@@ -6,7 +6,7 @@ $Tag = ":latest"
 
 # Docker Control
 Function Docker-Simple-Control($command) {
-    $host.UI.RawUI.WindowTitle = "$command (Docker) | ${pwd}"
+    $host.UI.RawUI.WindowTitle = "$command | ${pwd}"
     Switch ($command) {
         start {
             #docker pull bash
