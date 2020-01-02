@@ -10,9 +10,11 @@ habr.com##.column-wrapper_post-additionals.column-wrapper > .content_left > .def
 habr.com##.column-wrapper_post-additionals.column-wrapper > .sidebar_right
 habr.com##.content_left > .dfp-slot
 habr.com##.default-block
+habr.com##.dfp-slot
 habr.com##.footer
 habr.com##.footer-grid_menu
 habr.com##.footer-misprints
+habr.com##.for_users_only_msg
 habr.com##.indented.content_left > .default-block_content.default-block
 habr.com##.indented.content_left > .dfp-slot
 habr.com##.js-sidebar_right.sidebar_comments.sidebar_right
@@ -20,6 +22,7 @@ habr.com##.layout__row_navbar.layout__row
 habr.com##.layout__row_promo-blocks.layout__row
 habr.com##.new-block
 habr.com##.page-header__banner
+habr.com##.post__wrapper_type-voice.post__wrapper
 habr.com##.post-donate
 habr.com##.post-share
 habr.com##.promo-block_freelansim-tasks.promo-block
@@ -34,6 +37,7 @@ m.habr.com##.tm-article-donate
 m.habr.com##.tm-article-list-block
 m.habr.com##.tm-footer
 m.habr.com##.tm-header
+m.habr.com##.tm-lightning
 m.habr.com##.tm-page-article__sharing
 
 ! Kanobu
