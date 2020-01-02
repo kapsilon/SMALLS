@@ -141,6 +141,7 @@ www.iphones.ru###gallery-1
 www.iphones.ru###topcontrol
 www.iphones.ru##.action-like
 www.iphones.ru##.adsbygoogle
+www.iphones.ru##.author_photos_link
 www.iphones.ru##.c_y_style
 www.iphones.ru##.comment-content_block > .adsbygoogle
 www.iphones.ru##.comment__subscription
