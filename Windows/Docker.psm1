@@ -12,12 +12,14 @@ Function Docker-Simple-Control($command) {
             #docker pull bash
             #docker pull cirrusci/flutter
             #docker pull elasticsearch
+            #docker pull gitea/gitea
             #docker pull gogs/gogs
             #docker pull haskell
             #docker pull libreoffice/online
             #docker pull llvm
             #docker pull mariadb
             #docker pull mathematica12/mathematica12
+            #docker pull nickblah/lua
             #docker pull php
             #docker pull postgres
             docker pull omnimir/git
