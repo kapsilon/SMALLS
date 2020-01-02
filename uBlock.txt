@@ -105,10 +105,15 @@ lifehacker.ru###onesignal-bell-launcher
 lifehacker.ru###popmechanic-form
 lifehacker.ru##.carousel__wrapper
 lifehacker.ru##.custom-html-widget.textwidget
+lifehacker.ru##.favorite-icon-item
+lifehacker.ru##.favorite-single
 lifehacker.ru##.fixed-menu
 lifehacker.ru##.flow__header
 lifehacker.ru##.footer
 lifehacker.ru##.hc__nodisqus.hcc
+lifehacker.ru##.input-area
+lifehacker.ru##.lh-jumper__footer
+lifehacker.ru##.lh-jumper__scroll-to-site
 lifehacker.ru##.mobile-bar
 lifehacker.ru##.mobile-promo-menu
 lifehacker.ru##.read-also
@@ -128,6 +133,7 @@ lifehacker.ru##[href*="https://ads.adfox.ru/200984/goLink"]
 lifehacker.ru##[class*="js-tp-powered-by-wrapper-klit"]
 ||ad.adriver.ru/cgi-bin/rle.cgi$image
 ||ads.adfox.ru/200984/getCode$image
+||embed.simplecast.com/*$subdocument
 ||lifehacker.ru/*/$subdocument
 
 ! iPhones.ru
