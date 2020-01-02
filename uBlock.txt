@@ -42,13 +42,17 @@ m.habr.com##.tm-page-article__sharing
 
 ! Kanobu
 kanobu.ru###dzen_409590
+kanobu.ru###likes-374554
 kanobu.ru##._1chLXBlZ7_HZfQqu1R935U
 kanobu.ru##._2QPsKz14BGsIGUhguoBL84
 kanobu.ru##._33-i4_x3JBEOTiFTT0kM_0
 kanobu.ru##._3aToFnrBH_rLMNz78zlIXF
 kanobu.ru##._3V25jiU8i7PleviI_UzmH4
+kanobu.ru##.a-i-c.b_c
 kanobu.ru##.a-i-c.d-f.c-share
 kanobu.ru##.a-i-c.d-f.KYYV4-P-vVi7eebwpsa15
+kanobu.ru##.ai_gl
+kanobu.ru##.aq_v
 kanobu.ru##.c-detail_title
 kanobu.ru##.c-expect
 kanobu.ru##.c-head_right
@@ -63,8 +67,12 @@ kanobu.ru##.c-tags
 kanobu.ru##.comics-mod
 kanobu.ru##.d-f.p-r.c-ficher
 kanobu.ru##.game-mod
+kanobu.ru##.h_H
 kanobu.ru##.has-swiper
+kanobu.ru##.intro-mod.p-r.f-w.d-f.c-head > .a-i-c.d-f.an_fR
 kanobu.ru##.intro-mod.p-r.f-w.d-f.c-head > .a-i-c.d-f.c-share
+kanobu.ru##.is_mobile
+kanobu.ru##.js-no-swipe
 kanobu.ru##.KTwPxkpWDFjfcxiOQuR6l
 kanobu.ru##.mobile.card-size_l.widget.zen-widget
 kanobu.ru##.movies-mod
@@ -72,6 +80,7 @@ kanobu.ru##.p-r._3cJPsqEUF6X9bmVT9l_8el
 kanobu.ru##.p-r._3CXrb3P2EpxJuecr9X26fh
 kanobu.ru##.p-r.c-mobileFicher
 kanobu.ru##.p-r.c-head_right
+kanobu.ru##.p-r.f_t
 kanobu.ru##.p-r.f-w.d-f.c-head > .a-i-c.d-f.c-share
 kanobu.ru##.p-r.footer
 kanobu.ru##.p-r.header
@@ -81,6 +90,7 @@ kanobu.ru##.tech-mod
 kanobu.ru##.video-mod
 kanobu.ru##.vn-player
 kanobu.ru##.wrap_top
+kanobu.ru##.z_bL.z_bK
 kanobu.ru##header.p-r
 kanobu.ru##li.d-f.c-item:nth-of-type(2)
 kanobu.ru##section.d-f.c-content:nth-of-type(1) > .c-content_right
