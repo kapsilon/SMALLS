@@ -1,6 +1,6 @@
 Windows Registry Editor Version 5.00
 
-; Clear out Folder Settings
+; Clear Out Folder Settings
 [-HKEY_CURRENT_USER\Software\Microsoft\Windows\ShellNoRoam\BagMRU]
 [-HKEY_CURRENT_USER\Software\Microsoft\Windows\ShellNoRoam\Bags]
 [-HKEY_CURRENT_USER\Software\Microsoft\Windows\Shell\BagMRU]
@@ -10,6 +10,6 @@ Windows Registry Editor Version 5.00
 [-HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags]
 
 
-; Modify the Folder Storage space to 25000
+; Modify the Folder Storage space to 65535
 [HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell]
-"BagMRU Size"=dword:000061a8
+"BagMRU Size"=dword:0000ffff
