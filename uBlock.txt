@@ -147,6 +147,7 @@ www.iphones.ru##.comment__subscription
 www.iphones.ru##.comments__unauth
 www.iphones.ru##.comments__ortho:nth-of-type(5)
 www.iphones.ru##.comments__ortho_errmsg.comments__ortho
+www.iphones.ru##.contestlist
 www.iphones.ru##.cookie_privacy_block
 www.iphones.ru##.externalofferlist-h
 www.iphones.ru##.footer__cont
@@ -156,6 +157,7 @@ www.iphones.ru##.gravatar.avatar-100.avatars
 www.iphones.ru##.header__cont
 www.iphones.ru##.header__menu-project-cont
 www.iphones.ru##.links_near_postitem
+www.iphones.ru##.mini_poll
 www.iphones.ru##.need-telemetry
 www.iphones.ru##.onsubject
 www.iphones.ru##.post > div:nth-of-type(1)
@@ -163,6 +165,8 @@ www.iphones.ru##.post_author_desc
 www.iphones.ru##.post__favorites
 www.iphones.ru##.post__neighbors
 www.iphones.ru##.post__questionlist-cont
+www.iphones.ru##.post__tags-cont
+www.iphones.ru##.postitem_hot
 www.iphones.ru##.postitem__dpd_block
 www.iphones.ru##.postlis_tag_block__tags
 www.iphones.ru##.postlist__currency
