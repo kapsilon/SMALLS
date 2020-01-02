@@ -199,6 +199,12 @@ www.linux.org.ru###ft
 www.linux.org.ru###yandex_rtb
 www.linux.org.ru###yandex_rtb_R-A-337082-3
 
+! 2x2tv
+2x2tv.ru##.Christmas
+2x2tv.ru##.subscribe-form
+2x2tv.ru##.content-sidebr
+2x2tv.ru##.no-gutters
+
 ! 4pda
 4pda.ru##.news-list > li:nth-of-type(1)
 
