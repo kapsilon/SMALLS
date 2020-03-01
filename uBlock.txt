@@ -306,5 +306,5 @@ www.instagram.com##.Yx5HN.RnEpo
 ! Wikipedia
 wikipedia.org##.cbnnr-main
 
-! viqeo
+! Viqeo
 cdn.viqeo.tv/js/vq_starter.js
