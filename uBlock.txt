@@ -148,6 +148,7 @@ www.iphones.ru##.comment__subscription
 www.iphones.ru##.comments__unauth
 www.iphones.ru##.comments__ortho:nth-of-type(5)
 www.iphones.ru##.comments__ortho_errmsg.comments__ortho
+www.iphones.ru##.comments__toadd
 www.iphones.ru##.contestlist
 www.iphones.ru##.cookie_privacy_block
 www.iphones.ru##.externalofferlist-h
@@ -180,6 +181,7 @@ www.iphones.ru##.rand-social-like
 www.iphones.ru##.relatedlist
 www.iphones.ru##.sidebar
 www.iphones.ru##.social-share
+www.iphones.ru##.yota_car_brand
 www.iphones.ru##.yota_float
 www.iphones.ru##.yota_typewriter
 www.iphones.ru##center
@@ -190,6 +192,7 @@ opennet.ru###lenta_nav
 opennet.ru###top_news
 opennet.ru###tabs_top
 opennet.ru##small
+opennet.ru##body > form
 
 ! Linux.Org.Ru
 www.linux.org.ru###boxlets
