@@ -211,5 +211,8 @@ www.linux.org.ru###yandex_rtb_R-A-337082-3
 ! Instagram
 www.instagram.com##.Yx5HN.RnEpo
 
+! Wikipedia
+wikipedia.org##.cbnnr-main
+
 ! viqeo
 cdn.viqeo.tv/js/vq_starter.js
