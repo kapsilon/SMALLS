@@ -11,6 +11,7 @@ Function Docker-Simple-Control($command) {
         start {
             #docker pull bash
             #docker pull cirrusci/flutter
+            #docker pull chocobozzz/peertube
             #docker pull elasticsearch
             #docker pull gitea/gitea
             #docker pull gogs/gogs
@@ -26,8 +27,10 @@ Function Docker-Simple-Control($command) {
             docker pull omnimir/go
             docker pull omnimir/node
             docker pull omnimir/python
+            #docker pull romancin/ptokax (dc++)
             #docker pull tensorflow/tensorflow
             #docker pull wordpress
+            #docker pull yacy/yacy_search_server
         }
         update {
             docker images --format "{{.Repository}}:{{.Tag}}" | ForEach-Object { docker pull "$_" }
