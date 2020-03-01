@@ -1,3 +1,10 @@
+[Adblock Plus 2.0]
+! Version: 5.0
+! Title: OmniMir Filters
+! Last modified: 01.03.2020
+! Expires: 30 days (update frequency)
+! Homepage: https://vash.omnimir.ru/
+!
 ! Import to external filter lists in uBlock Origin
 ! https://raw.githubusercontent.com/kapsilon/smALLs/master/uBlock.txt
 
