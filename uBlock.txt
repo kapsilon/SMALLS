@@ -103,7 +103,9 @@ lifehacker.ru###lh-club-wrapper
 lifehacker.ru###mc_embed_signup
 lifehacker.ru###onesignal-bell-launcher
 lifehacker.ru###popmechanic-form
+lifehacker.ru##.button-simple.comment-reply
 lifehacker.ru##.carousel__wrapper
+lifehacker.ru##.comment-buttons__container
 lifehacker.ru##.custom-html-widget.textwidget
 lifehacker.ru##.favorite-icon-item
 lifehacker.ru##.favorite-single
@@ -112,10 +114,13 @@ lifehacker.ru##.flow__header
 lifehacker.ru##.footer
 lifehacker.ru##.hc__nodisqus.hcc
 lifehacker.ru##.input-area
+lifehacker.ru##.input-area__button
 lifehacker.ru##.lh-jumper__footer
 lifehacker.ru##.lh-jumper__scroll-to-site
+lifehacker.ru##.lightgrey-box
 lifehacker.ru##.mobile-bar
 lifehacker.ru##.mobile-promo-menu
+lifehacker.ru##.new-comments-button__wrapper
 lifehacker.ru##.read-also
 lifehacker.ru##.show.banner-under-header
 lifehacker.ru##.side-banner--wrapper
@@ -124,7 +129,9 @@ lifehacker.ru##.single__fix-width-sidebar
 lifehacker.ru##.single-post-footer > .social-and-date
 lifehacker.ru##.social-and-date__left
 lifehacker.ru##.social-and-date__top
+lifehacker.ru##.sort-switch
 lifehacker.ru##.stripe.container-fluid
+lifehacker.ru##.subscription-switch
 lifehacker.ru##.top-menu--wrapper
 lifehacker.ru##.web_conference
 lifehacker.ru##.white-box
@@ -132,7 +139,7 @@ lifehacker.ru##.widgets-above-comments.widgets-area
 lifehacker.ru##[href*="https://ads.adfox.ru/200984/goLink"]
 lifehacker.ru##[class*="js-tp-powered-by-wrapper-klit"]
 ||ad.adriver.ru/cgi-bin/rle.cgi$image
-||ads.adfox.ru/200984/getCode$image
+||ads.adfox.ru/*/getCode$image
 ||embed.simplecast.com/*$subdocument
 ||lifehacker.ru/*/$subdocument
 
