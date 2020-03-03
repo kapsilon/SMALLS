@@ -21,6 +21,7 @@ Function Docker-Simple-Control($command) {
             #docker pull mariadb
             #docker pull mathematica12/mathematica12
             #docker pull nickblah/lua
+            #docker pull pandoc/core
             #docker pull php
             #docker pull postgres
             docker pull omnimir/git
