@@ -22,6 +22,9 @@ Function Dowload-Video-From-YouTube ($link, $format) {
             $format = "--write-auto-sub --convert-subs srt --sub-lang en,ru --skip-download"
             #Fix for not converting to srt "ffmpeg.exe -i subtitle.vtt subtitles.srt"
         }
+        elseif ($format -eq "mp3") {
+            $format = "--extract-audio --audio-format mp3 --audio-quality 0"
+        }
         else {
             $format = "-f " + $format
         }
@@ -38,6 +41,7 @@ Function Dowload-Video-From-YouTube ($link, $format) {
         echo "For download 1080p+bestaudio: 'youtube https://yourlink.to/video 1080'"
         echo "For download subtitles: 'youtube https://yourlink.to/video subs'"
         echo "For download automated subtitles: 'youtube https://yourlink.to/video asubs'"
+        echo "For download only music: 'youtube https://yourlink.to/video mp3'"
     }
     $host.UI.RawUI.WindowTitle = "PowerShell"
 }
