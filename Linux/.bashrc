@@ -35,6 +35,7 @@ alias ls='ls --color --group-directories-first -p'
 alias lsa='ls --color --group-directories-first -p -A'
 alias lsl='ls --color --group-directories-first -p -A -lh --time-style=iso'
 alias mkdir='mkdir -p'
+alias pd='pushd . 1>/dev/null'
 alias rm='rm -iv'
 alias rmdir='rm -iRv'
 alias sudo='sudo '
@@ -49,6 +50,12 @@ alias cdi='cd `(echo ".." &&
           ls -A --color=never --group-directories-first -p) |
           (peco --initial-index=1 --on-cancel=error --prompt="INTERACTIVE-CD: $PWD" --selection-prefix=+ || echo ".")
           `'
+alias pdi='cd `
+		  (dirs -p | tail -n +2) |
+		  (peco --initial-index=1 --on-cancel=error --prompt="INTERACTIVE-PD: $PWD" --selection-prefix=">" || echo ".") | 
+		  (read result; echo "${result/\~/$HOME}")
+		  `'
+
 alias upupaway='echo -e "\033[7mapt update\033[0m"; sudo apt update &&
                 echo -e "\033[7mapt upgrade\033[0m"; sudo apt upgrade --yes &&
                 echo -e "\033[7mapt autoremove\033[0m"; sudo apt autoremove --yes'
