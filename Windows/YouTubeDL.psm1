@@ -5,7 +5,7 @@ Function Dowload-Video-From-YouTube ($link, $format) {
     $ytdlExe = "youtube-dl.exe"
     $ytdl = $ytdlFolder + $ytdlExe
     #Set download
-    $downloadFolder = "G:\Download\"
+    $downloadFolder = $HOME + "\Desktop\Download\"
     $downloadFile = "%(title)s__%(resolution)s.%(ext)s"
     $dl = $downloadFolder + $downloadFile
  
