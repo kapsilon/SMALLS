@@ -22,13 +22,17 @@ habr.com##.footer
 habr.com##.footer-grid_menu
 habr.com##.footer-misprints
 habr.com##.for_users_only_msg
+habr.com##.icon-svg_arrow-up
+habr.com##.icon-svg_arrow-down
 habr.com##.indented.content_left > .default-block_content.default-block
 habr.com##.indented.content_left > .dfp-slot
+habr.com##.inline-list_comment-nav.inline-list
 habr.com##.js-sidebar_right.sidebar_comments.sidebar_right
 habr.com##.layout__row_navbar.layout__row
 habr.com##.layout__row_promo-blocks.layout__row
 habr.com##.new-block
 habr.com##.page-header__banner
+habr.com##.page-header_110.page-header
 habr.com##.post__wrapper_type-voice.post__wrapper
 habr.com##.post-donate
 habr.com##.post-share
@@ -38,6 +42,7 @@ habr.com##.promo-block_vacancies.promo-block
 habr.com##.shortcuts_item.content-list__item_post.content-list__item > .dfp-slot
 habr.com##.shortcuts_item.content-list__item_post.content-list__item > .default-block
 habr.com##.sticky_init.sidebar_content-area
+habr.com##.tabs-menu.tabs-level_top
 m.habr.com##.tm-article__sticked-counters-wrapper
 m.habr.com##.tm-article-hubs
 m.habr.com##.tm-article-donate
