@@ -319,6 +319,7 @@ opennet.ru###top_news
 opennet.ru###tabs_top
 opennet.ru##small
 opennet.ru##body > form
+||www.opennet.ru/openforum/Images/newmark.gif$image
 
 ! Linux.Org.Ru
 www.linux.org.ru###boxlets
