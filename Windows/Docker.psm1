@@ -9,6 +9,7 @@ Function Docker-Simple-Control($command) {
     $host.UI.RawUI.WindowTitle = "$command | ${pwd}"
     Switch ($command) {
         start {
+			#docker pull alpine/nikto
             #docker pull bash
             #docker pull cirrusci/flutter
             #docker pull chocobozzz/peertube
@@ -19,7 +20,9 @@ Function Docker-Simple-Control($command) {
             #docker pull libreoffice/online
             #docker pull llvm
             #docker pull mariadb
-            #docker pull mathematica12/mathematica12
+			#docker pull mathematica12/mathematica12
+			#docker pull docker pull mcr.microsoft.com/powershell
+			#docker pull nginx
             #docker pull nickblah/lua
             #docker pull pandoc/core
             #docker pull php
