@@ -268,6 +268,7 @@ www.iphones.ru###topcontrol
 www.iphones.ru##.action-like
 www.iphones.ru##.adsbygoogle
 www.iphones.ru##.author_photos_link
+www.iphones.ru##.backdrop
 www.iphones.ru##.c_y_style
 www.iphones.ru##.comment-content_block > .adsbygoogle
 www.iphones.ru##.comment__subscription
@@ -284,6 +285,7 @@ www.iphones.ru##.gravatar.avatar-100.avatar
 www.iphones.ru##.gravatar.avatar-100.avatars
 www.iphones.ru##.header__cont
 www.iphones.ru##.header__menu-project-cont
+www.iphones.ru##.imageBullet_click
 www.iphones.ru##.links_near_postitem
 www.iphones.ru##.mini_poll
 www.iphones.ru##.need-telemetry
@@ -310,8 +312,10 @@ www.iphones.ru##.social-share
 www.iphones.ru##.yota_car_brand
 www.iphones.ru##.yota_float
 www.iphones.ru##.yota_typewriter
+www.iphones.ru##.yota-pavlik-banner
 www.iphones.ru##center
 www.iphones.ru##header
+||www.iphones.ru/wp-content/themes/simpla2/images/bullet.svg$image
 
 ! OpenNet
 opennet.ru###lenta_nav
