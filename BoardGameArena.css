@@ -16,6 +16,10 @@ display: none !important;
 left: 200px;
 }
 
+.tournamentresult {
+    font-size: 100%;
+}
+
 /*Krosmaster Arena*/
 .playerstock {
 border-radius: 20px;
