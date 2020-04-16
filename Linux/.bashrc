@@ -64,6 +64,11 @@ alias upupaway='echo -e "\033[7mapt update\033[0m"; sudo apt update &&
 				echo -e "\033[7mapt upgrade\033[0m"; sudo apt upgrade --yes &&
 				echo -e "\033[7mapt autoremove\033[0m"; sudo apt autoremove --yes'
 
+#Update dot-files from github or other places
+DOTFILESHOSTSERVER="https://raw.githubusercontent.com/kapsilon/smALLs/master/Linux/"
+alias updots='wget "$DOTFILESHOSTSERVER.bashrc" -O .bashrc -q && echo ".bashrc updated";
+			  wget "$DOTFILESHOSTSERVER.nanorc" -O .nanorc -q && echo ".nanorc updated"'
+
 #Weather in terminal for you (Moscow, Russia)
 alias weather='curl ru.wttr.in/Moscow?0QT'
 
