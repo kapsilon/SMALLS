@@ -55,7 +55,7 @@ alias cdi='cd `
 #Simple Interactive PushD, use with "pd", required "apt install peco"
 alias pdi='cd `
 		  (dirs -p | tail -n +2) |
-		  (peco --initial-index=1 --on-cancel=error --prompt="INTERACTIVE-PD: $PWD" --selection-prefix=">" || echo ".") | 
+		  (peco --initial-index=1 --on-cancel=error --prompt="INTERACTIVE-PD: $PWD" --selection-prefix=">" || echo ".") |
 		  (read result; echo "${result/\~/$HOME}")
 		  `'
 
