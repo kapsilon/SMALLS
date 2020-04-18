@@ -1,7 +1,7 @@
 //VK: Disable social junk
 document.getElementById('side_bar').style.display = "none";
 
-//Whatsapp: Enter <=> Ctrl+Enter
+//WhatsApp: Enter <=> Ctrl+Enter
 document.addEventListener('keydown', function(e){
     if(e.keyCode === 13 && e.ctrlKey) {
         e.preventDefault();
