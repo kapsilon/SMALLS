@@ -16,12 +16,13 @@ Function Docker-Simple-Control($command) {
             #docker pull elasticsearch
             #docker pull gitea/gitea
             #docker pull gogs/gogs
-            #docker pull haskell
+			#docker pull haskell
+			#docker pull kylemanna/openvpn
             #docker pull libreoffice/online
             #docker pull llvm
             #docker pull mariadb
 			#docker pull mathematica12/mathematica12
-			#docker pull docker pull mcr.microsoft.com/powershell
+			#docker pull mcr.microsoft.com/powershell
 			#docker pull nginx
             #docker pull nickblah/lua
             #docker pull pandoc/core
