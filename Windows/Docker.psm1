@@ -17,6 +17,7 @@ Function Docker-Simple-Control($command) {
             #docker pull gitea/gitea
             #docker pull gogs/gogs
 			#docker pull haskell
+			#docker pull ipfs/go-ipfs
 			#docker pull kylemanna/openvpn
             #docker pull libreoffice/online
             #docker pull llvm
