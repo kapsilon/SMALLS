@@ -46,6 +46,8 @@ export VISUAL='nano -Svm$'
 export TERM='xterm-256color'
 
 #LITTLE APPLICATIONS
+#Required "sudo apt install neofetch peco"
+
 #Simple Interactive CD, required "apt install peco"
 alias cdi='cd `
 		  (echo ".." && ls -A --color=never --group-directories-first -p) |
