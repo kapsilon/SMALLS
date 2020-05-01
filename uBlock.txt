@@ -7,6 +7,7 @@
 !
 ! Import to external filter lists in uBlock Origin
 ! https://raw.githubusercontent.com/kapsilon/smALLs/master/uBlock.txt
+! https://filters.adtidy.org/extension/ublock/filters/1.txt
 
 ! Disabling PWA "Add to Home Screen" Button
 *$csp=manifest-src 'none'
