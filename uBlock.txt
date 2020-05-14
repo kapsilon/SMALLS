@@ -192,7 +192,6 @@ kanobu.ru##.R_eu
 kanobu.ru##.responsive-img
 kanobu.ru##.S_aE
 kanobu.ru##.S_eE
-!kanobu.ru##.S_eJ
 kanobu.ru##.S_fb
 kanobu.ru##.sport-mod
 kanobu.ru##.T_ee
