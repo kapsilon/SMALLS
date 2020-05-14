@@ -26,6 +26,7 @@ fi
 #UNIVERSAL ALIASES
 alias aptsearch='apt search --names-only' #apt search only by name
 alias byebye='sudo shutdown -r now' #restart
+alias countnow='cloc --hide-rate --sum-one .'
 alias edit='nano -NSmu$'
 alias dirspace='du -h --max-depth=1'
 alias diskspace='df -h --exclude-type=tmpfs --exclude-type=devtmpfs'
@@ -46,7 +47,7 @@ export VISUAL='nano -Svm$'
 export TERM='xterm-256color'
 
 #LITTLE APPLICATIONS
-#Required "sudo apt install neofetch peco"
+#Required "sudo apt install cloc neofetch peco"
 
 #Simple Interactive CD, required "apt install peco"
 alias cdi='cd `
