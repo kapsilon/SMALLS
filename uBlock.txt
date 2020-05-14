@@ -68,7 +68,6 @@ kanobu.ru##.aa_eg
 kanobu.ru##.aB_bJ
 kanobu.ru##.aC_eM
 kanobu.ru##.af_eK
-kanobu.ru##.af_eV
 kanobu.ru##.af_eW
 kanobu.ru##.af_ft
 kanobu.ru##.aG_fH
