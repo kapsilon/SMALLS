@@ -353,6 +353,7 @@ www.linux.org.ru###yandex_rtb_R-A-337082-3
 2x2tv.ru##.Christmas
 2x2tv.ru##.content-sidebr
 2x2tv.ru##.font-folio
+2x2tv.ru##.justify-content-between.align-items-center.d-flex.pl-5-5.px-5.p-3.col-12
 2x2tv.ru##.nav-social
 2x2tv.ru##.no-gutters
 2x2tv.ru##.subscribe-form
