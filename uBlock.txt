@@ -247,6 +247,7 @@ lifehacker.ru##.hc__nodisqus.hcc
 lifehacker.ru##.input-area
 lifehacker.ru##.input-area__button
 lifehacker.ru##.input-area__container
+lifehacker.ru##.jLfVpt
 lifehacker.ru##.jZUUkH
 lifehacker.ru##.lh-jumper__footer
 lifehacker.ru##.lh-jumper__scroll-to-site
