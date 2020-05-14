@@ -318,6 +318,7 @@ www.iphones.ru##.postlist__currency
 www.iphones.ru##.postpage_dont_forget_other
 www.iphones.ru##.postpage_telega
 www.iphones.ru##.postpage__favorites
+www.iphones.ru##.prev
 www.iphones.ru##.push-notifier
 www.iphones.ru##.push-notifier-block
 www.iphones.ru##.rand-social-like
