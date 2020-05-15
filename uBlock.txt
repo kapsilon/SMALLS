@@ -73,13 +73,11 @@ kanobu.ru##._3aToFnrBH_rLMNz78zlIXF
 kanobu.ru##._3V25jiU8i7PleviI_UzmH4
 kanobu.ru##.A_ar
 kanobu.ru##.A_br
-kanobu.ru##.a-i-c.b_c
 kanobu.ru##.aa_eg
 kanobu.ru##.aa_eZ
 kanobu.ru##.aB_bJ
 kanobu.ru##.ac_fp
 kanobu.ru##.aC_eM
-kanobu.ru##.af_eK
 kanobu.ru##.af_eW
 kanobu.ru##.af_ft
 kanobu.ru##.ag_bU
@@ -141,6 +139,7 @@ kanobu.ru##.av_er
 kanobu.ru##.ay_bS
 kanobu.ru##.az_cK
 kanobu.ru##.az_eH
+kanobu.ru##.b_c
 kanobu.ru##.B_aE
 kanobu.ru##.B_bm
 kanobu.ru##.B_bq
