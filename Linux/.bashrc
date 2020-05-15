@@ -62,10 +62,13 @@ alias pdi='cd `
 		  (read result; echo "${result/\~/$HOME}")
 		  `'
 
-#Everything will UPdate, UPgrade and remove AWAY
+#Everything will UPdate, UPgrade and remove AWAY + SNAP if snap is here
 alias upupaway='echo -e "\033[7mapt update\033[0m"; sudo apt update &&
 				echo -e "\033[7mapt upgrade\033[0m"; sudo apt upgrade --yes &&
-				echo -e "\033[7mapt autoremove\033[0m"; sudo apt autoremove --yes'
+				echo -e "\033[7mapt autoremove\033[0m"; sudo apt autoremove --yes &&
+				if (dpkg -l | grep "ii  snapd") > /dev/null; then
+				(echo -e "\033[7msnap refresh\033[0m"; sudo snap refresh;) fi
+				'
 
 #Update dot-files from github or other places
 DOTFILESHOSTSERVER="https://raw.githubusercontent.com/kapsilon/smALLs/master/Linux"
