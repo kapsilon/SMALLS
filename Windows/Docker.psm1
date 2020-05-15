@@ -24,6 +24,7 @@ Function Docker-Simple-Control($command) {
 			#docker pull llvm
 			#docker pull mariadb
 			#docker pull mathematica12/mathematica12
+			#docker pull microsoft/playwright
 			#docker pull mcr.microsoft.com/powershell
 			#docker pull nginx
 			#docker pull nickblah/lua
