@@ -70,7 +70,8 @@ alias upupaway='echo -e "\033[7mapt update\033[0m"; sudo apt update &&
 #Update dot-files from github or other places
 DOTFILESHOSTSERVER="https://raw.githubusercontent.com/kapsilon/smALLs/master/Linux"
 alias updots='wget "$DOTFILESHOSTSERVER/.bashrc" -O $HOME/.bashrc -q && echo ".bashrc updated";
-			  wget "$DOTFILESHOSTSERVER/.nanorc" -O $HOME/.nanorc -q && echo ".nanorc updated"'
+			  wget "$DOTFILESHOSTSERVER/.nanorc" -O $HOME/.nanorc -q && echo ".nanorc updated"
+			  '
 
 #Weather in terminal for you (Moscow, Russia)
 alias weather='curl ru.wttr.in/Moscow?0QT'
@@ -79,6 +80,7 @@ alias weather='curl ru.wttr.in/Moscow?0QT'
 export PS1='\[\e]0;\h\a\]${debian_chroot:+($debian_chroot)}\[\033[01;07;34m\]\u@\h\[\033[00m\]\[\033[07;37m\] \w \[\033[00m\]\[\033[01;07;32m\]\$\[\033[00m\] '
 
 #----------------------------------------------------
+#UNCOMMENT THESE IF NECESSARY
 
 #Minimal PS1 for Android Termux
 #export PS1='[\033[07;37m\] \w \[\033[00m\]\[\033[01;07;92m\]\$\[\033[00m\] '
