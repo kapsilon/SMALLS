@@ -39,6 +39,7 @@ alias mkdir='mkdir -p'
 alias pd='pushd . 1>/dev/null' #use with "pdi"
 alias rm='rm -iv'
 alias rmdir='rm -iRv'
+alias sshtarpit='sudo nohup endlessh -p 22'
 alias sudo='sudo '
 alias view='nano -Svm$'
 alias version='neofetch'
@@ -47,7 +48,7 @@ export VISUAL='nano -Svm$'
 export TERM='xterm-256color'
 
 #LITTLE APPLICATIONS
-#Required "sudo apt install cloc neofetch peco"
+#Required "sudo apt install cloc endlessh neofetch peco"
 
 #Simple Interactive CD, required "apt install peco"
 alias cdi='cd `
