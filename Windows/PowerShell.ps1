@@ -41,6 +41,12 @@ Function Get-Full-Path-of-Symbol-Link($path) {
 }
 Set-Alias linkpath -Value Get-Full-Path-of-Symbol-Link
 
+# Generate new GUID
+Function Generate-New-GUID() {
+[guid]::NewGuid().ToString()
+}
+Set-Alias guid -Value Generate-New-GUID
+
 # PowerShell Prompt with colors
 $ESC = [char]27
 Function Prompt {
