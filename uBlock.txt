@@ -393,8 +393,10 @@ www.linux.org.ru###yandex_rtb_R-A-337082-3
 2x2tv.ru##.card
 2x2tv.ru##.Christmas
 2x2tv.ru##.content-sidebr
+2x2tv.ru##.cook-mob
 2x2tv.ru##.font-folio
 2x2tv.ru##.justify-content-between.align-items-center.d-flex.pl-5-5.px-5.p-3.col-12
+2x2tv.ru##.mb-lg-0.mb-3.align-items-center.justify-content-start.d-flex.order-lg-1.order-md-2.col-xl-3.col-lg-3.col-md-6.col-12
 2x2tv.ru##.nav-social
 2x2tv.ru##.no-gutters
 2x2tv.ru##.subscribe-form
