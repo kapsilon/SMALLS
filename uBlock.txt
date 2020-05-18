@@ -326,6 +326,7 @@ www.iphones.ru##.author_photos_link
 www.iphones.ru##.backdrop
 www.iphones.ru##.c_y_style
 www.iphones.ru##.comment-content_block > .adsbygoogle
+www.iphones.ru##.comment__item_new
 www.iphones.ru##.comment__subscription
 www.iphones.ru##.comments__unauth
 www.iphones.ru##.comments__ortho:nth-of-type(5)
@@ -361,6 +362,7 @@ www.iphones.ru##.postpage__favorites
 www.iphones.ru##.prev
 www.iphones.ru##.push-notifier
 www.iphones.ru##.push-notifier-block
+www.iphones.ru##.questionitem__side-info
 www.iphones.ru##.rand-social-like
 www.iphones.ru##.relatedlist
 www.iphones.ru##.sidebar
