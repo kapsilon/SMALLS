@@ -33,6 +33,7 @@ Function RoboCopy-Zero-Tree($oldDirectory, $newDirectory) {
         Write-Output "difftree path/to/old/dir path/to/new/dir"
     }
 }
+Set-Alias copytree -Value RoboCopy-Zero-Tree
 
 # Very simple diff of file trees
 Function Compare-Difference-Of-Trees($old, $new, $diff) {
