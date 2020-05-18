@@ -36,12 +36,12 @@ Function Dowload-Video-From-YouTube ($link, $format) {
         Start-Process -FilePath $ytdl -ArgumentList $arguments -NoNewWindow -Wait
     }
     else {
-        echo "For view all variants: 'youtube https://yourlink.to/video'"
-        echo "For download variant (video+audio): 'youtube https://yourlink.to/video 137+22'"
-        echo "For download 1080p+bestaudio: 'youtube https://yourlink.to/video 1080'"
-        echo "For download subtitles: 'youtube https://yourlink.to/video subs'"
-        echo "For download automated subtitles: 'youtube https://yourlink.to/video asubs'"
-        echo "For download only music: 'youtube https://yourlink.to/video mp3'"
+        Write-Output "For view all variants: 'youtube https://yourlink.to/video'"
+        Write-Output "For download variant (video+audio): 'youtube https://yourlink.to/video 137+22'"
+        Write-Output "For download 1080p+bestaudio: 'youtube https://yourlink.to/video 1080'"
+        Write-Output "For download subtitles: 'youtube https://yourlink.to/video subs'"
+        Write-Output "For download automated subtitles: 'youtube https://yourlink.to/video asubs'"
+        Write-Output "For download only music: 'youtube https://yourlink.to/video mp3'"
     }
     $host.UI.RawUI.WindowTitle = "PowerShell"
 }

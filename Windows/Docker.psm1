@@ -95,10 +95,10 @@ Function Docker-Simple-Control($command) {
 				/bin/bash
 		}
 		default {
-			echo "Administration"
-			echo "  start, update, conts, contsrm, ims, imsrm"
-			echo "Systems"
-			echo "  git, go, node, python"
+			Write-Output "Administration"
+			Write-Output "  start, update, conts, contsrm, ims, imsrm"
+			Write-Output "Systems"
+			Write-Output "  git, go, node, python"
 		}
 	}
 	$host.UI.RawUI.WindowTitle = "PowerShell"
@@ -112,7 +112,7 @@ Function Docker-Simple-Build($file, $name) {
 		docker push $name
 	}
 	else {
-		echo 'dockbuild path/to/Dockerfile "repository/name:tag"'
+		Write-Output 'dockbuild path/to/Dockerfile "repository/name:tag"'
 	}
 }
 Set-Alias dockbuild -Value Docker-Simple-Build

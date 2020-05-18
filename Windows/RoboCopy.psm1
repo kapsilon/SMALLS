@@ -30,7 +30,7 @@ Function Compare-Difference-Of-Trees($old, $new, $diff) {
         $treenew = tree $new
         Compare-Object $treeold $treenew > $diff
     } else{
-        echo "difftree path/to/dir1 path/to/dir2 path/to/difffile"
+        Write-Output "difftree path/to/dir1 path/to/dir2 path/to/difffile"
     }
 }
 Set-Alias difftree -Value Compare-Difference-Of-Trees

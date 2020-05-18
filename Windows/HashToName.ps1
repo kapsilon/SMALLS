@@ -37,5 +37,5 @@ function Rename-FilesToSHA {
     }
 }
 
-cd K:\cLIB\Hashing
+Set-Location K:\cLIB\Hashing
 Rename-FilesToSHA -Path ./
