@@ -407,8 +407,9 @@ www.linux.org.ru###yandex_rtb_R-A-337082-3
 www.instagram.com##.Yx5HN.RnEpo
 
 ! Wikipedia
-ru.m.wikipedia.org##.header-chrome.header-container
-ru.m.wikipedia.org##.minerva-footer
+wikipedia.org###cnotice-main
+wikipedia.org##.header-chrome.header-container
+wikipedia.org##.minerva-footer
 wikipedia.org##.cbnnr-main
 
 ! Yandex Zen
