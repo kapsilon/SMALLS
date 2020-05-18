@@ -1,11 +1,15 @@
 # PowerShell Profile Installation
-#Copy-Item Profile.ps1 -Destination "${home}\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1"
+#Copy-Item PowerShell.ps1 -Destination "${home}\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1"
 
 # Importing useful modules
 Import-Module ($PSScriptRoot + "\Docker.psm1")
 Import-Module ($PSScriptRoot + "\LittleApps.psm1")
 Import-Module ($PSScriptRoot + "\RoboCopy.psm1")
 Import-Module ($PSScriptRoot + "\YouTubeDL.psm1")
+
+# Simple updating of PowerShell Profile & Windows Terminal Settings
+Copy-Item ($PSScriptRoot + "\PowerShell.ps1") -Destination ($PSScriptRoot + "\Microsoft.PowerShell_profile.ps1")
+Copy-Item ($PSScriptRoot + "\Terminal.json") -Destination "${home}\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json"
 
 # Fix for Bug with Big letters 
 Remove-Module -Name PSReadline
