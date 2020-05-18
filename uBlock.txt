@@ -270,10 +270,13 @@ lifehacker.ru###lh-club-wrapper
 lifehacker.ru###mc_embed_signup
 lifehacker.ru###onesignal-bell-launcher
 lifehacker.ru###popmechanic-form
+lifehacker.ru##.bIyASb
 lifehacker.ru##.blWmuX
+lifehacker.ru##.bScsv
 lifehacker.ru##.button-simple.comment-reply
 lifehacker.ru##.carousel__wrapper
 lifehacker.ru##.comment-buttons__container
+lifehacker.ru##.corona-widget
 lifehacker.ru##.custom-html-widget.textwidget
 lifehacker.ru##.dIglCq
 lifehacker.ru##.favorite-icon-item
@@ -283,6 +286,9 @@ lifehacker.ru##.fLglxo
 lifehacker.ru##.flow__header
 lifehacker.ru##.footer
 lifehacker.ru##.hc__nodisqus.hcc
+lifehacker.ru##.iEmyrC
+lifehacker.ru##.iJRgIi
+lifehacker.ru##.imTAwf
 lifehacker.ru##.input-area
 lifehacker.ru##.input-area__button
 lifehacker.ru##.input-area__container
