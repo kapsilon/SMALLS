@@ -404,6 +404,9 @@ www.linux.org.ru###yandex_rtb_R-A-337082-3
 4pda.ru##.news-list > li:nth-of-type(1)
 
 ! Instagram
+www.instagram.com##.GhZ_W._09ncq._8Rna9
+www.instagram.com##.xZ2Xk
+www.instagram.com##.X6gVd.f11OC.NXc7H
 www.instagram.com##.Yx5HN.RnEpo
 
 ! Wikipedia
