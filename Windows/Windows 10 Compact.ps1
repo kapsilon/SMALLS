@@ -4,7 +4,7 @@
 compact /compactos:query
 
 #Отключение режима, что увеличивает быстродействие и объём ОС
-compact /compactos:never
+#compact /compactos:never
 
 #Включение режима (дефолтное состояние), что уменьшает быстродействие и объём ОС
-compact /compactos:always
+#compact /compactos:always
