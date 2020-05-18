@@ -374,9 +374,12 @@ www.iphones.ru##header
 ||www.iphones.ru/wp-content/themes/simpla2/images/bullet.svg$image
 
 ! OpenNet
+opennet.ru###edit_link
 opennet.ru###lenta_nav
+opennet.ru###lenta_nav2
 opennet.ru###top_news
 opennet.ru###tabs_top
+opennet.ru##.ttxt
 opennet.ru##small
 opennet.ru##body > form
 ||www.opennet.ru/openforum/Images/newmark.gif$image
