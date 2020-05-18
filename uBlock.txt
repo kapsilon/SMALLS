@@ -412,9 +412,9 @@ ru.m.wikipedia.org##.minerva-footer
 wikipedia.org##.cbnnr-main
 
 ! Yandex Zen
-zen.yandex.ru##.app-button
 zen.yandex.ru###zen-header_mobile
 zen.yandex.ru###article-footer-content
+zen.yandex.ru##.app-button
 
 ! Viqeo
 cdn.viqeo.tv/js/vq_starter.js
