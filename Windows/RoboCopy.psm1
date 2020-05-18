@@ -1,3 +1,6 @@
+# RoboCopy Syntax
+# https://docs.microsoft.com/ru-ru/windows-server/administration/windows-commands/robocopy
+
 # Copying all folders and files
 Function RoboCopy-All-Files($oldDirectory, $newDirectory) {
     robocopy  `
