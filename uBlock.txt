@@ -9,10 +9,10 @@
 ! https://raw.githubusercontent.com/kapsilon/smALLs/master/uBlock.txt
 ! https://filters.adtidy.org/extension/ublock/filters/1.txt
 
-! Disabling PWA "Add to Home Screen" Button
-*$csp=manifest-src 'none'
+!! Disabling PWA "Add to Home Screen" Button
+!*$csp=manifest-src 'none'
 
-! Habrahabr
+!! Habrahabr
 habr.com###TMpanel
 habr.com##.column-wrapper_post-additionals.column-wrapper > .content_left > .default-block_content.default-block
 habr.com##.column-wrapper_post-additionals.column-wrapper > .sidebar_right
@@ -62,7 +62,7 @@ m.habr.com##.tm-page-article__counters-panel_sticky
 m.habr.com##.tm-page-article__sharing
 m.habr.com##.tm-promo-block
 
-! Kanobu
+!! Kanobu
 kanobu.ru###dzen_409590
 kanobu.ru###likes-374554
 kanobu.ru###likes-423866
@@ -357,8 +357,9 @@ kanobu.ru##.z_bL
 kanobu.ru##.z_bv
 kanobu.ru##header.p-r
 kanobu.ru##li.d-f.c-item:nth-of-type(2)
+!kanobu.ru/images/6c433800d6ba2c0b5439cf604ac3868a.gif
 
-! Lifehacker
+!! Lifehacker
 lifehacker.ru###custom_html-79
 lifehacker.ru###desktop-fixed-bar
 lifehacker.ru###doodle-dt
@@ -419,7 +420,7 @@ lifehacker.ru##label
 ||embed.simplecast.com/*$subdocument
 ||lifehacker.ru/*/$subdocument
 
-! iPhones.ru
+!! iPhones
 www.iphones.ru###gallery-1
 www.iphones.ru###topcontrol
 www.iphones.ru##.action-like
@@ -477,7 +478,7 @@ www.iphones.ru##center
 www.iphones.ru##header
 ||www.iphones.ru/wp-content/themes/simpla2/images/bullet.svg$image
 
-! OpenNet
+!! OpenNet
 opennet.ru###edit_link
 opennet.ru###lenta_nav
 opennet.ru###lenta_nav2
@@ -488,7 +489,7 @@ opennet.ru##small
 opennet.ru##body > form
 ||www.opennet.ru/openforum/Images/newmark.gif$image
 
-! Linux.Org.Ru
+!! Linux.Org.Ru
 www.linux.org.ru###boxlets
 www.linux.org.ru###hd
 www.linux.org.ru###interpage
@@ -496,7 +497,7 @@ www.linux.org.ru###ft
 www.linux.org.ru###yandex_rtb
 www.linux.org.ru###yandex_rtb_R-A-337082-3
 
-! 2x2tv
+!! 2x2tv
 2x2tv.ru##.card
 2x2tv.ru##.Christmas
 2x2tv.ru##.content-sidebr
@@ -509,25 +510,25 @@ www.linux.org.ru###yandex_rtb_R-A-337082-3
 2x2tv.ru##.subscribe-form
 2x2tv.ru##.uSocial-Share
 
-! 4pda
+!! 4pda
 4pda.ru##.news-list > li:nth-of-type(1)
 
-! Instagram
+!! Instagram
 www.instagram.com##.GhZ_W._09ncq._8Rna9
 www.instagram.com##.xZ2Xk
 www.instagram.com##.X6gVd.f11OC.NXc7H
 www.instagram.com##.Yx5HN.RnEpo
 
-! Wikipedia
+!! Wikipedia
 wikipedia.org###cnotice-main
 wikipedia.org##.header-chrome.header-container
 wikipedia.org##.minerva-footer
 wikipedia.org##.cbnnr-main
 
-! Yandex Zen
+!! Yandex Zen
 zen.yandex.ru###zen-header_mobile
 zen.yandex.ru###article-footer-content
 zen.yandex.ru##.app-button
 
-! Viqeo
+!! Viqeo
 cdn.viqeo.tv/js/vq_starter.js
