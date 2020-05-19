@@ -357,7 +357,7 @@ kanobu.ru##.z_bL
 kanobu.ru##.z_bv
 kanobu.ru##header.p-r
 kanobu.ru##li.d-f.c-item:nth-of-type(2)
-||kanobu.ru/images/6c433800d6ba2c0b5439cf604ac3868a.gif$image
+kanobu.ru/images/6c433800d6ba2c0b5439cf604ac3868a.gif
 
 ! Lifehacker
 lifehacker.ru###custom_html-79
