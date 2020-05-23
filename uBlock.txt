@@ -177,7 +177,7 @@ kanobu.ru##.at_gP
 kanobu.ru##.au_fh
 kanobu.ru##.av_bJ
 kanobu.ru##.av_er
-kanobu.ru##.ay_bS
+!kanobu.ru##.ay_bS
 kanobu.ru##.az_cK
 kanobu.ru##.az_eH
 kanobu.ru##.A_ar
