@@ -24,6 +24,7 @@ if ! shopt -oq posix; then
 fi
 
 #UNIVERSAL ALIASES
+#Required cloc, endlessh, neofetch
 alias aptsearch='apt search --names-only' #apt search only by name
 alias byebye='sudo shutdown -r now' #restart
 alias countnow='cloc --hide-rate --sum-one .'
@@ -48,15 +49,15 @@ export VISUAL='nano -Svm$'
 export TERM='xterm-256color'
 
 #LITTLE APPLICATIONS
-#Required "sudo apt install cloc endlessh neofetch peco"
+#Required peco
 
-#Simple Interactive CD, required "apt install peco"
+#Simple Interactive CD (required peco)
 alias cdi='cd `
 		  (echo ".." && ls -A --color=never --group-directories-first -p) |
 		  (peco --initial-index=1 --on-cancel=error --prompt="INTERACTIVE-CD: $PWD" --selection-prefix=">" || echo ".")
 		  `'
 
-#Simple Interactive PushD, use with "pd", required "apt install peco"
+#Simple Interactive PushD, use with "pd" (required peco)
 alias pdi='cd `
 		  (dirs -p | tail -n +2) |
 		  (peco --initial-index=1 --on-cancel=error --prompt="INTERACTIVE-PD: $PWD" --selection-prefix=">" || echo ".") |
@@ -76,6 +77,8 @@ DOTFILESHOSTSERVER="https://raw.githubusercontent.com/kapsilon/smALLs/master/Lin
 alias updots='wget "$DOTFILESHOSTSERVER/.bashrc" -O $HOME/.bashrc -q && echo ".bashrc updated";
 			  wget "$DOTFILESHOSTSERVER/.nanorc" -O $HOME/.nanorc -q && echo ".nanorc updated"
 			  '
+#Install Required Software
+alias updots_required='sudo apt install cloc endlessh neofetch peco'
 
 #Weather in terminal for you (Moscow, Russia)
 alias weather='curl ru.wttr.in/Moscow?0QT'
