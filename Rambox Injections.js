@@ -1,3 +1,6 @@
+//Skype: Disable footer 
+document.querySelector("div[style*='background-color: rgb(43, 44, 51); padding-left: 8px;']").style.display = "none";
+
 //VK: Disable social junk
 document.querySelector('#side_bar').style.display = "none";
 //VK: Disable header bar
