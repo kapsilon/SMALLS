@@ -26,7 +26,7 @@ fi
 #UNIVERSAL ALIASES
 #Required cloc, endlessh, neofetch
 alias aptsearch='apt search --names-only' #apt search only by name
-alias byebye='sudo shutdown -r now' #restart
+alias byebye='sudo shutdown -r now'       #restart
 alias countnow='cloc --hide-rate --sum-one .'
 alias edit='nano -NSmu$'
 alias dirspace='du -h --max-depth=1'
@@ -92,7 +92,7 @@ export PS1='\[\e]0;\h\a\]${debian_chroot:+($debian_chroot)}\[\033[01;07;34m\]\u@
 #Minimal PS1 for Android Termux
 #export PS1='[\033[07;37m\] \w \[\033[00m\]\[\033[01;07;92m\]\$\[\033[00m\] '
 
-#Battery status in terminal Knb
+#Battery status in Terminal
 #export PS1BAT='\[\033[07;31m\][$(cat /sys/class/power_supply/BAT0/capacity)%]\[\033[00m\]'
 
 #PS1 for Ubuntu on Windows - other colors
