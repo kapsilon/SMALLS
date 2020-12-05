@@ -3,6 +3,8 @@ document.querySelector('#side_bar').style.display = "none";
 //VK: Disable header bar
 document.querySelector('#page_header_cont').style.display = "none";
 document.querySelector('#page_body').style.marginTop = "0";
+//VK: Disable old browser disclaimer
+document.querySelector('#old_browser_wrap').style.display = "none";
 
 //WhatsApp: Enter <=> Ctrl+Enter
 document.addEventListener('keydown', function(e){
