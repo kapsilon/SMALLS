@@ -23,8 +23,7 @@ if ! shopt -oq posix; then
 	fi
 fi
 
-#UNIVERSAL ALIASES
-#Required cloc, endlessh, neofetch
+#UNIVERSAL ALIASES (Required cloc, endlessh, neofetch)
 alias aptsearch='apt search --names-only' #apt search only by name
 alias byebye='sudo shutdown -r now'       #restart
 alias countnow='cloc --hide-rate --sum-one .'
@@ -48,8 +47,7 @@ export EDITOR='nano -NSmu$'
 export VISUAL='nano -Svm$'
 export TERM='xterm-256color'
 
-#LITTLE APPLICATIONS
-#Required peco
+#LITTLE APPLICATIONS (Required peco)
 
 #Simple Interactive CD (required peco)
 alias cdi='cd `
