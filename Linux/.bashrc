@@ -67,7 +67,7 @@ alias upupaway='echo -e "\033[7mapt update\033[0m"; sudo apt update &&
 				echo -e "\033[7mapt upgrade\033[0m"; sudo apt upgrade --yes &&
 				echo -e "\033[7mapt autoremove\033[0m"; sudo apt autoremove --yes &&
 				if (dpkg -l | grep "ii  snapd") > /dev/null; then
-				(echo -e "\033[7msnap refresh\033[0m"; sudo snap refresh; sudo snap refresh &&
+				(echo -e "\033[7msnap refresh\033[0m"; sudo snap refresh &&
 					sudo snap set system refresh.hold=$(date --date="today+30 days" --iso-8601=seconds);)
 				fi
 				'
