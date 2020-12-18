@@ -83,20 +83,34 @@ alias updots_required='sudo apt install cloc endlessh neofetch peco'
 #Weather in terminal for you (Moscow, Russia)
 alias weather='curl ru.wttr.in/Moscow?0QT'
 
-#PS1 prompt as "kapsilon@K0 /home $" with color
-export PS1='\[\e]0;\h\a\]${debian_chroot:+($debian_chroot)}\[\033[01;07;34m\]\u@\h\[\033[00m\]\[\033[07;37m\] \w \[\033[00m\]\[\033[01;07;32m\]\$\[\033[00m\] '
+#PS1 Prompt
+#Desktop Style "kapsilon@K0 /home $" with colors
+PSdesktop='\[\e]0;\h\a\]${debian_chroot:+($debian_chroot)}\[\033[01;07;34m\]\u@\h\[\033[00m\]\[\033[07;37m\] \w \[\033[00m\]\[\033[01;07;32m\]\$\[\033[00m\] '
+#Laptop Style "kapsilon@K0 /home 90% $" with colors and Battery status
+PSlaptop='\[\e]0;\h\a\]${debian_chroot:+($debian_chroot)}\[\033[01;07;34m\]\u@\h\[\033[00m\]\[\033[07;37m\] \w \[\033[00m\]\[\033[01;07;32m\]\$\[\033[00m\]\[\033[07;31m\][$(cat /sys/class/power_supply/BAT0/capacity)%]\[\033[00m\] '
+#Minimal Style "kapsilon@K0 /home 90% $" with colors for Android Termux
+PSminimal='[\033[07;37m\] \w \[\033[00m\]\[\033[01;07;92m\]\$\[\033[00m\] '
+
+if [[ "$HOSTNAME" == "K0" ]]; then
+	export PS1=$PSdesktop
+elif [[ "$HOSTNAME" == "K1" ]]; then
+	export PS1=$PSdesktop
+elif [[ "$HOSTNAME" == "K2" ]]; then
+	export PS1=$PSdesktop
+	#Mount All Disks
+	alias mountall='sudo mount /Документы/; sudo mount /Загрузки/; sudo mount /Игры/; sudo mount /Разное/'
+elif [[ "$HOSTNAME" == "Knb" ]]; then
+	export PS1=$PSlaptop
+elif [[ "$HOSTNAME" == "Kpi" ]]; then
+	export PS1=$PSdesktop
+elif [[ "$HOSTNAME" == "localhost" ]]; then
+	#For Android Termux
+	export PS1=$PSminimal
+	#Always SUDO without SUDO
+	alias sudo=' '
+else export PS1= '\u@\h  \w $ '
+fi
 
 #----------------------------------------------------
-#UNCOMMENT THESE IF NECESSARY
-
-#Minimal PS1 for Android Termux
-#export PS1='[\033[07;37m\] \w \[\033[00m\]\[\033[01;07;92m\]\$\[\033[00m\] '
-
-#Battery status in Terminal
-#export PS1BAT='\[\033[07;31m\][$(cat /sys/class/power_supply/BAT0/capacity)%]\[\033[00m\]'
-
-#PS1 for Ubuntu on Windows - other colors
+#PS1 for Ubuntu on Windows (other colors)
 #export PS1='${debian_chroot:+($debian_chroot)}\[\033[01;07;94m\]\u@\h\[\033[00m\]\[\033[07;37m\] \w \[\033[00m\]\[\033[01;07;92m\]\$\[\033[00m\] '
-
-#Mount all disks at K1
-#alias mountall='sudo mount /Документы/; sudo mount /Загрузки/; sudo mount /Игры/; sudo mount /Разное/'
