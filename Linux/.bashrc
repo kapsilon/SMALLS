@@ -23,7 +23,7 @@ if ! shopt -oq posix; then
 	fi
 fi
 
-#UNIVERSAL ALIASES (Required cloc, endlessh, inxi, neofetch)
+#UNIVERSAL ALIASES (Required caca-utils, cloc, endlessh, inxi, neofetch)
 alias aptsearch='apt search --names-only' #apt search only by name
 alias byebye='sudo shutdown -r now'       #restart
 alias countnow='cloc --hide-rate --sum-one .'
@@ -33,6 +33,7 @@ alias diskspace='df -h --exclude-type=tmpfs --exclude-type=devtmpfs'
 alias grep='grep --color --ignore-case'
 alias goodbye='sudo shutdown -h now' #shutdown
 alias hardware='inxi -Fo'
+alias image='cacaview' #image in terminal
 alias ls='ls --color --group-directories-first -p'
 alias lsa='ls --color --group-directories-first -p -A'
 alias lsl='ls --color --group-directories-first -p -A -lh --time-style=iso'
@@ -79,7 +80,7 @@ alias updots='wget "$DOTFILESHOSTSERVER/.bashrc" -O $HOME/.bashrc -q && echo ".b
 			  wget "$DOTFILESHOSTSERVER/.nanorc" -O $HOME/.nanorc -q && echo ".nanorc updated"
 			  '
 #Install Required Software
-alias updots_required='sudo apt install cloc endlessh inxi neofetch peco'
+alias updots_required='sudo apt install caca-utils cloc endlessh inxi neofetch peco'
 
 #Weather in terminal for you (Moscow, Russia)
 alias weather='curl ru.wttr.in/Moscow?0QT'
