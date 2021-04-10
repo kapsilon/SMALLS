@@ -1,8 +1,0 @@
-Have a look at pm-action(8) and search for /etc/pm/sleep.d in section “FILES”. If one of these scripts returns with a non-zero exit status, suspension is prevented.
-
-Updated instructions for clarity:
-
-So create a file /etc/pm/sleep.d/05_ssh_keepawake.
-Put a shebang (#!/bin/sh) and the code mentioned in the question in this file.
-Set execute permissions on it:
-chmod +x /etc/pm/sleep.d/05_ssh_keepawake

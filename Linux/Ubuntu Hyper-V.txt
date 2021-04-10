@@ -1,4 +1,0 @@
-# Installing the virtual kernel 
-apt install linux-image-virtual
-# Installing Hyper-V daemons VSS Snapshot, KVP & fcopy
-apt install linux-tools-virtual linux-cloud-tools-virtual
