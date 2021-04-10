@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=Chromium
-
-Exec=chromium-browser
-
-Type=Application
-Icon=chromium-browser
-Terminal=false
